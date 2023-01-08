@@ -2,13 +2,13 @@
 
 @font-face {
 	font-family: 'Josefin Sans';
-	src: url(JosefinSans-Regular.ttf), url(JosefinSans-SemiBold.ttf),
-		url(JosefinSans-Bold.ttf);
+	src: url(fonts/JosefinSans-Regular.ttf), url(fonts/JosefinSans-SemiBold.ttf),
+		url(fonts/JosefinSans-Bold.ttf);
 }
 
 @font-face {
 	font-family: 'Amatic';
-	src: url(AmaticSC-Regular.ttf), url(AmaticSC-Bold.ttf);
+	src: url(fonts/AmaticSC-Regular.ttf), url(fonts/AmaticSC-Bold.ttf);
 }
 
 body {
