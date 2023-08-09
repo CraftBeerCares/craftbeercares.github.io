@@ -2,7 +2,7 @@
   "name": "react_spa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://craftbeercares.github.io/react_spa",
+  "homepage": "https://craftbeercares.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
