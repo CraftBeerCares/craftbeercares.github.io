@@ -68,7 +68,7 @@ exports[`renders Home page 1`] = `
           data-nimg="fill"
           decoding="async"
           loading="lazy"
-          src="/logo.svg"
+          src="/assets/logo.svg"
           style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
         />
       </div>
@@ -124,7 +124,7 @@ exports[`renders Home page 1`] = `
           decoding="async"
           height="30"
           loading="lazy"
-          src="/facebook.svg"
+          src="/assets/facebook.svg"
           style="color: transparent;"
           width="30"
         />
@@ -134,7 +134,7 @@ exports[`renders Home page 1`] = `
           decoding="async"
           height="30"
           loading="lazy"
-          src="/instagram.svg"
+          src="/assets/instagram.svg"
           style="color: transparent;"
           width="30"
         />
@@ -144,7 +144,7 @@ exports[`renders Home page 1`] = `
           decoding="async"
           height="30"
           loading="lazy"
-          src="/twitter.svg"
+          src="/assets/twitter.svg"
           style="color: transparent;"
           width="30"
         />

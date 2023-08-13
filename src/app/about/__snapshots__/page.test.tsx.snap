@@ -76,7 +76,7 @@ exports[`renders About page 1`] = `
           decoding="async"
           height="30"
           loading="lazy"
-          src="/facebook.svg"
+          src="/assets/facebook.svg"
           style="color: transparent;"
           width="30"
         />
@@ -86,7 +86,7 @@ exports[`renders About page 1`] = `
           decoding="async"
           height="30"
           loading="lazy"
-          src="/instagram.svg"
+          src="/assets/instagram.svg"
           style="color: transparent;"
           width="30"
         />
@@ -96,7 +96,7 @@ exports[`renders About page 1`] = `
           decoding="async"
           height="30"
           loading="lazy"
-          src="/twitter.svg"
+          src="/assets/twitter.svg"
           style="color: transparent;"
           width="30"
         />

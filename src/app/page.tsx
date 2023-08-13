@@ -12,7 +12,11 @@ export default function Page() {
       <Header />
       <main>
         <div className={styles.logoContainer}>
-          <Image src="/logo.svg" alt="Craft Beer Cares Logo" fill={true} />
+          <Image
+            src="/assets/logo.svg"
+            alt="Craft Beer Cares Logo"
+            fill={true}
+          />
         </div>
         <h1 className={clsx(secondary.className, styles.title)}>
           Craft Beer Cares is a collective of beer lovers who want to do good
