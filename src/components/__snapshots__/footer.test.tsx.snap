@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Footer 1`] = `
+<div>
+  <footer
+    class="footer"
+  >
+    <div>
+      Craft Beer Cares
+    </div>
+    <nav />
+    <div>
+      <img
+        alt="Facebook"
+        data-nimg="1"
+        decoding="async"
+        height="30"
+        loading="lazy"
+        src="/facebook.svg"
+        style="color: transparent;"
+        width="30"
+      />
+      <img
+        alt="Instagram"
+        data-nimg="1"
+        decoding="async"
+        height="30"
+        loading="lazy"
+        src="/instagram.svg"
+        style="color: transparent;"
+        width="30"
+      />
+      <img
+        alt="Twitter"
+        data-nimg="1"
+        decoding="async"
+        height="30"
+        loading="lazy"
+        src="/twitter.svg"
+        style="color: transparent;"
+        width="30"
+      />
+    </div>
+    <div>
+      Craft Beer Cares - Drinking beer for good Stuff since 2017
+    </div>
+  </footer>
+</div>
+`;
