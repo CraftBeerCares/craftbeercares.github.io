@@ -9,4 +9,8 @@
 
 /* Tablet Smaller Desktop */
 @media (min-width: 701px) {
+  .footer {
+    position: sticky;
+    bottom: 0;
+  }
 }

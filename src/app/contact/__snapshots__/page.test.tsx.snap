@@ -59,7 +59,9 @@ exports[`renders Contact page 1`] = `
         </a>
       </nav>
     </header>
-    <main>
+    <main
+      class="mainContent"
+    >
       Contact
     </main>
     <footer

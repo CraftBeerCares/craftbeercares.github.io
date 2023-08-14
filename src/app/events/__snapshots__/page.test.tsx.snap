@@ -59,7 +59,9 @@ exports[`renders Events page 1`] = `
         </a>
       </nav>
     </header>
-    <main>
+    <main
+      class="mainContent"
+    >
       Events
     </main>
     <footer

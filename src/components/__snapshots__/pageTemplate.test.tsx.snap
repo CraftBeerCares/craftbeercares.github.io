@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders Join Us page 1`] = `
+exports[`renders Page Template 1`] = `
 <div>
   <div
     class="container"
@@ -62,7 +62,7 @@ exports[`renders Join Us page 1`] = `
     <main
       class="mainContent"
     >
-      Join Us
+      Hello
     </main>
     <footer
       class="footer"

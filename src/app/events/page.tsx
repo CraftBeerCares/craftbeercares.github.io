@@ -1,12 +1,10 @@
-import Footer from '../../components/footer'
-import Header from '../../components/header'
+import PageTemplate from "@/components/pageTemplate";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Events",
+};
 
 export default function Page() {
-  return (
-  <div className="container">
-    <Header />
-    <main>Events</main>
-    <Footer />
-  </div>
-  )
+  return <PageTemplate>Events</PageTemplate>;
 }

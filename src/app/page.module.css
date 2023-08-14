@@ -40,4 +40,7 @@
 
 /* Tablet Smaller Desktop */
 @media (min-width: 701px) {
+  .mainContent {
+    flex-grow: 1;
+  }
 }

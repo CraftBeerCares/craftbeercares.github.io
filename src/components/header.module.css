@@ -4,6 +4,7 @@
   top: 0;
   display: flex; /* or inline-flex */
   flex-direction: row;
+  z-index: 100;
 }
 
 .title {
@@ -33,10 +34,6 @@
 
 /* Mobile */
 @media (max-width: 700px) {
-  .header {
-    height: 4rem;
-  }
-
   .burgerMenuButton {
     display: block;
     order: 0;
@@ -56,10 +53,6 @@
 
 /* Tablet Smaller Desktop */
 @media (min-width: 701px) {
-  .header {
-    height: 5rem;
-  }
-
   .burgerMenuButton {
     display: none;
   }
@@ -72,7 +65,7 @@
   .topNav {
     order: 1;
     margin-right: 5rem;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }

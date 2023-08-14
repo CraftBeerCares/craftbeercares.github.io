@@ -59,7 +59,9 @@ exports[`renders About page 1`] = `
         </a>
       </nav>
     </header>
-    <main>
+    <main
+      class="mainContent"
+    >
       About
     </main>
     <footer
