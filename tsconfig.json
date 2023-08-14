@@ -27,7 +27,8 @@
       "@/*": [
         "./src/*"
       ],
-      "@/fonts": ["./styles/fonts"]
+      "@/fonts": ["./styles/fonts"],
+      "@/assets": ["../public/assets"]
     }
   },
   "include": [

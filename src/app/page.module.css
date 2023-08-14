@@ -33,6 +33,9 @@
     margin: 2rem;
   }
 
+  .articleRow {
+  }
+
   .article {
     margin: 2rem;
   }
@@ -42,5 +45,19 @@
 @media (min-width: 701px) {
   .mainContent {
     flex-grow: 1;
+  }
+
+  .articleRow {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .article {
+    flex: 1 1 50%;
+    margin: 2rem;
+  }
+
+  .articleImage {
+    flex: 1 1 50%;
   }
 }
