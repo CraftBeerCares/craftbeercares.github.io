@@ -81,17 +81,24 @@ exports[`renders Home page 1`] = `
           Craft Beer Cares is a collective of beer lovers who want to do good things.
         </h1>
       </section>
-      <article
-        class="article"
+      <div
+        class="articleRow"
       >
-        <p>
-          We take part in events run by amazing people with a passion for fundraising, and have organised events combining charitable aims with the enjoyment of beer made by some of the most talented breweries in the UK and beyond.
-        </p>
-        <br />
-        <p>
-          Our events have raised funds for charities such as Art Against Knives, Hackney Winter Night Shelter, Mind, The Newman Holiday Trust and more!
-        </p>
-      </article>
+        <div
+          class="articleImage"
+        />
+        <article
+          class="article"
+        >
+          <p>
+            We take part in events run by amazing people with a passion for fundraising, and have organised events combining charitable aims with the enjoyment of beer made by some of the most talented breweries in the UK and beyond.
+          </p>
+          <br />
+          <p>
+            Our events have raised funds for charities such as Art Against Knives, Hackney Winter Night Shelter, Mind, The Newman Holiday Trust and more!
+          </p>
+        </article>
+      </div>
       <section
         class="linkContainer"
       >
@@ -102,60 +109,142 @@ exports[`renders Home page 1`] = `
           Check out The Events We've Done For charity
         </a>
       </section>
-      <article
-        class="article"
+      <div
+        class="articleRow"
       >
-        <p>
-          Not only do we put on events, but we also shout about events that great pubs, bars, breweries, and other oganisations are doing to benefit good causes.
-        </p>
-        <br />
-        <p>
-          Find out more about the events we organise and other good things happening by signing up to our newsletter, or by following us on Twitter, Facebook, or Instagram.
-        </p>
-      </article>
+        <article
+          class="article"
+        >
+          <p>
+            Not only do we put on events, but we also shout about events that great pubs, bars, breweries, and other oganisations are doing to benefit good causes.
+          </p>
+          <br />
+          <p>
+            Find out more about the events we organise and other good things happening by signing up to our newsletter, or by following us on Twitter, Facebook, or Instagram.
+          </p>
+        </article>
+        <div
+          class="articleImage"
+        />
+      </div>
     </main>
     <footer
       class="footer"
     >
-      <div>
-        Craft Beer Cares
+      <div
+        class="footerNav"
+      >
+        <nav
+          class="footerLinks"
+        >
+          <nav
+            class="className"
+          >
+            <a
+              class="navLink"
+              href="/"
+            >
+              Home
+            </a>
+            <a
+              class="navLink"
+              href="/about"
+            >
+              About
+            </a>
+            <a
+              class="navLink"
+              href="/join_us"
+            >
+              Join Us
+            </a>
+            <a
+              class="navLink"
+              href="/events"
+            >
+              Events
+            </a>
+            <a
+              class="navLink"
+              href="/shop"
+            >
+              Shop
+            </a>
+            <a
+              class="navLink"
+              href="/contact"
+            >
+              Contact
+            </a>
+          </nav>
+        </nav>
+        <div
+          class="socialLinks"
+        >
+          <a
+            href="https://www.facebook.com/craftbeercares"
+          >
+            <img
+              alt="Facebook"
+              data-nimg="1"
+              decoding="async"
+              height="30"
+              loading="lazy"
+              src="/assets/facebook.svg"
+              style="color: transparent;"
+              width="30"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/craftbeercares/"
+          >
+            <img
+              alt="Instagram"
+              data-nimg="1"
+              decoding="async"
+              height="30"
+              loading="lazy"
+              src="/assets/instagram.svg"
+              style="color: transparent;"
+              width="30"
+            />
+          </a>
+          <a
+            href="https://twitter.com/craftbeercares"
+          >
+            <img
+              alt="Twitter"
+              data-nimg="1"
+              decoding="async"
+              height="30"
+              loading="lazy"
+              src="/assets/twitter.svg"
+              style="color: transparent;"
+              width="30"
+            />
+          </a>
+        </div>
+        <div
+          class="footerQuote"
+        >
+          Craft Beer Cares - Drinking beer for good Stuff since 2017
+        </div>
       </div>
-      <nav />
-      <div>
+      <div
+        class="footerLogo"
+      >
         <img
-          alt="Facebook"
-          data-nimg="1"
+          alt="Craft Beer Cares Logo"
+          data-nimg="fill"
           decoding="async"
-          height="30"
           loading="lazy"
-          src="/assets/facebook.svg"
-          style="color: transparent;"
-          width="30"
-        />
-        <img
-          alt="Instagram"
-          data-nimg="1"
-          decoding="async"
-          height="30"
-          loading="lazy"
-          src="/assets/instagram.svg"
-          style="color: transparent;"
-          width="30"
-        />
-        <img
-          alt="Twitter"
-          data-nimg="1"
-          decoding="async"
-          height="30"
-          loading="lazy"
-          src="/assets/twitter.svg"
-          style="color: transparent;"
-          width="30"
+          src="/assets/logo_bw.svg"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; filter: invert(1);"
         />
       </div>
-      <div>
-        Craft Beer Cares - Drinking beer for good Stuff since 2017
-      </div>
+      <div
+        class="footerSignUp"
+      />
     </footer>
   </div>
 </div>
