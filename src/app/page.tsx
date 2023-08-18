@@ -4,9 +4,9 @@ import styles from "./page.module.css";
 import { secondary } from "../styles/fonts";
 import { clsx } from "clsx";
 import PageTemplate from "@/components/pageTemplate";
-import type { Metadata } from "next";
+import type { Metadata } from "next/";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Craft Beer Cares",
 };
 
