@@ -1,68 +1,99 @@
 .footer {
-  height: 24rem;
+  height: 19rem;
   background-color: var(--cbc-pink);
 }
 
-.footerLogo {
-  width: 100%;
-  height: 50%;
-  position: relative;
-  margin-top: 1rem;
+.footerColumn {
+  flex: 1 1 33%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
 }
 
 .socialLinks {
+  flex: 1 1;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  width: 10rem;
+}
+
+.socialLink {
+  flex: 1;
+}
+
+.footerQuote {
+  margin-bottom: 2rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  margin-right: 0.75rem;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  color: white;
+  font-size: 1rem;
+  margin-right: 0.75rem;
+}
+
+.active {
+  text-decoration: underline;
 }
 
 /* Mobile */
 @media (max-width: 700px) {
-  .footer {
+  .footerMobile {
     display: flex;
     flex-direction: column;
   }
 
-  .footerQuote {
+  .footerDesktop {
     display: none;
   }
 
   .footerLogo {
-    order: 1;
-  }
-
-  .footerNav {
-    margin-left: auto;
-    margin-right: auto;
-    order: 2;
-  }
-
-  .footerSignUp {
-    display: none;
-  }
-
-  .footerLinks {
-    display: none;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    margin-top: 1rem;
   }
 }
 
 /* Tablet Smaller Desktop */
 @media (min-width: 701px) {
-  .footer {
-    display: flex;
-    flex-direction: row;
+  .footerMobile {
+    display: none;
   }
 
-  .footerNav {
-    flex: 1 1 33%;
+  .footerDesktop {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    height: 100%;
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--padding-left);
+    padding-right: var(--padding-right);
   }
 
   .footerLogo {
-    flex: 1 1 33%;
-  }
-
-  .footerSignUp {
-    flex: 1 1 33%;
+    width: 100%;
+    height: 75%;
+    position: relative;
+    margin-top: 2rem;
   }
 }

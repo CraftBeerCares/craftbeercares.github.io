@@ -1,5 +1,21 @@
+.pageContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  border-bottom: 3px solid var(--cbc-pink);
+}
+
 .mainContent {
   flex-grow: 1;
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Mobile */
@@ -8,7 +24,7 @@
 
 /* Tablet Smaller Desktop */
 @media (min-width: 701px) {
-  .mainContent {
+  .contentContainer {
     overflow-y: auto;
   }
 }

@@ -1,6 +1,8 @@
 import styles from "./pageTemplate.module.css";
 import Footer from "./footer";
 import Header from "./header";
+import { primary } from "../styles/fonts";
+import { clsx } from "clsx";
 
 export default function PageTemplate({
   children,
@@ -8,10 +10,16 @@ export default function PageTemplate({
   children: React.ReactNode;
 }) {
   return (
-    <div className="container">
-      <Header />
-      <main className={styles.mainContent}>{children}</main>
-      <Footer />
+    <div className={styles.pageContainer}>
+      <div className={styles.header}>
+        <Header />
+      </div>
+      <div className={styles.contentContainer}>
+        <main className={clsx(primary.className, styles.mainContent)}>
+          {children}
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 }
