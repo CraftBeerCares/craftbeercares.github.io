@@ -1,5 +1,5 @@
 import styles from "./pageTemplate.module.css";
-import { Footer, Header} from "@/components";
+import { Footer, Header } from "@/components";
 import { primary } from "@/styles/fonts";
 import { clsx } from "clsx";
 
@@ -7,9 +7,7 @@ interface PageTemplateProps {
   children: React.ReactNode;
 }
 
-export const PageTemplate = ({
-  children,
-}: PageTemplateProps) => {
+export const PageTemplate = ({ children }: PageTemplateProps) => {
   return (
     <div className={styles.pageContainer}>
       <div className={styles.header}>
@@ -23,4 +21,4 @@ export const PageTemplate = ({
       </div>
     </div>
   );
-}
+};

@@ -17,8 +17,14 @@
 }
 
 .burgerMenuButton {
+  background-color: transparent;
+  border: none;
   display: block;
+  position: relative;
   flex-grow: 0;
+  margin: 2px;
+  height: 2rem;
+  width: 2rem;
 }
 
 /* GENERIC NAV STYLES */
@@ -38,6 +44,13 @@
   margin-left: 0.75rem;
 }
 
+.navLink:active {
+  text-decoration: underline;
+  text-underline-offset: 0.75rem;
+  color: var(--foreground-rgb);
+  font-size: 1.5rem;
+  margin-left: 0.75rem;
+}
 
 /* Mobile */
 @media (max-width: 700px) {

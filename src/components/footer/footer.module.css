@@ -16,7 +16,7 @@
 
 .footerLinks {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .socialLinks {

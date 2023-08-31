@@ -3,6 +3,7 @@ import Image from "next/image";
 import { secondary } from "@/styles/fonts";
 import { clsx } from "clsx";
 import Link from "next/link";
+import Navigation from "../navigation/navigation";
 
 export const Footer = () => {
   return (
@@ -22,28 +23,10 @@ export const Footer = () => {
           <h2 className={clsx(secondary.className, styles.title)}>
             Craft Beer Cares
           </h2>
-          <nav className={styles.footerLinks}>
-            <nav className={clsx(secondary.className)}>
-              <Link className={styles.navLink} href="/">
-                Home
-              </Link>
-              <Link className={styles.navLink} href="/about">
-                About
-              </Link>
-              <Link className={styles.navLink} href="/join_us">
-                Join Us
-              </Link>
-              <Link className={styles.navLink} href="/events">
-                Events
-              </Link>
-              <Link className={styles.navLink} href="/shop">
-                Shop
-              </Link>
-              <Link className={styles.navLink} href="/contact">
-                Contact
-              </Link>
-            </nav>
-          </nav>
+          <Navigation
+            navClassName={clsx(secondary.className, styles.footerLinks)}
+            linkClassName={styles.navLink}
+          />
           <div className={styles.socialLinks}>
             <a
               href="https://www.facebook.com/craftbeercares"
@@ -98,4 +81,4 @@ export const Footer = () => {
       </div>
     </footer>
   );
-}
+};
