@@ -10,22 +10,13 @@ exports[`renders Home page 1`] = `
     >
       <header>
         <div
-          class="headerMobile"
+          class="header"
         >
           <button
             class="burgerMenuButton"
           >
             Menu
           </button>
-          <h1
-            class="className title"
-          >
-            Craft Beer Cares
-          </h1>
-        </div>
-        <div
-          class="headerDesktop"
-        >
           <h1
             class="className title"
           >
@@ -94,7 +85,7 @@ exports[`renders Home page 1`] = `
         </div>
         <section>
           <h1
-            class="className title"
+            class="className subTitle"
           >
             Craft Beer Cares is a collective of beer lovers who want to do good things.
           </h1>
@@ -104,7 +95,18 @@ exports[`renders Home page 1`] = `
         >
           <div
             class="articleImage"
-          />
+          >
+            <img
+              alt="Image of Founder"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=%2Fassets%2F001.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Fassets%2F001.webp&w=640&q=75 640w, /_next/image?url=%2Fassets%2F001.webp&w=750&q=75 750w, /_next/image?url=%2Fassets%2F001.webp&w=828&q=75 828w, /_next/image?url=%2Fassets%2F001.webp&w=1080&q=75 1080w, /_next/image?url=%2Fassets%2F001.webp&w=1200&q=75 1200w, /_next/image?url=%2Fassets%2F001.webp&w=1920&q=75 1920w, /_next/image?url=%2Fassets%2F001.webp&w=2048&q=75 2048w, /_next/image?url=%2Fassets%2F001.webp&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: contain; color: transparent;"
+            />
+          </div>
           <article
             class="article"
           >
@@ -143,8 +145,26 @@ exports[`renders Home page 1`] = `
           </article>
           <div
             class="articleImage"
-          />
+          >
+            <img
+              alt="DJ at Craft Beers Event"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=%2Fassets%2F002.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Fassets%2F002.webp&w=640&q=75 640w, /_next/image?url=%2Fassets%2F002.webp&w=750&q=75 750w, /_next/image?url=%2Fassets%2F002.webp&w=828&q=75 828w, /_next/image?url=%2Fassets%2F002.webp&w=1080&q=75 1080w, /_next/image?url=%2Fassets%2F002.webp&w=1200&q=75 1200w, /_next/image?url=%2Fassets%2F002.webp&w=1920&q=75 1920w, /_next/image?url=%2Fassets%2F002.webp&w=2048&q=75 2048w, /_next/image?url=%2Fassets%2F002.webp&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: contain; color: transparent;"
+            />
+          </div>
         </div>
+        <section>
+          <h1
+            class="className quoteTitle"
+          >
+            Here's what some nice folks have said about craft beer cares!
+          </h1>
+        </section>
       </main>
       <footer
         class="footer"

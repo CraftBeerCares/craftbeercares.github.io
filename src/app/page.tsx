@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import { secondary } from "../styles/fonts";
 import { clsx } from "clsx";
 import PageTemplate from "@/components/pageTemplate";
+import ArticleRow from "@/components/articleRow";
 import type { Metadata } from "next/";
 
 export const metadata: Metadata = {
@@ -18,16 +19,14 @@ export default function Page() {
       </div>
 
       <section>
-        <h1 className={clsx(secondary.className, styles.title)}>
+        <h1 className={clsx(secondary.className, styles.subTitle)}>
           Craft Beer Cares is a collective of beer lovers who want to do good
           things.
         </h1>
       </section>
 
-      <div className={styles.articleRow}>
-        <div className={styles.articleImage}></div>
-        <article className={styles.article}>
-          <p>
+      <ArticleRow imageSrc="/assets/001.webp" imageAlt="Image of Founder" imageFirst={true}>
+        <p>
             We take part in events run by amazing people with a passion for
             fundraising, and have organised events combining charitable aims
             with the enjoyment of beer made by some of the most talented
@@ -38,9 +37,8 @@ export default function Page() {
             Our events have raised funds for charities such as Art Against
             Knives, Hackney Winter Night Shelter, Mind, The Newman Holiday Trust
             and more!
-          </p>
-        </article>
-      </div>
+        </p>
+      </ArticleRow>
 
       <section className={styles.linkContainer}>
         <Link
@@ -51,8 +49,7 @@ export default function Page() {
         </Link>
       </section>
 
-      <div className={styles.articleRow}>
-        <article className={styles.article}>
+      <ArticleRow imageSrc="/assets/002.webp" imageAlt="DJ at Craft Beers Event" imageFirst={false}>
           <p>
             Not only do we put on events, but we also shout about events that
             great pubs, bars, breweries, and other oganisations are doing to
@@ -64,9 +61,13 @@ export default function Page() {
             happening by signing up to our newsletter, or by following us on
             Twitter, Facebook, or Instagram.
           </p>
-        </article>
-        <div className={styles.articleImage}></div>
-      </div>
+      </ArticleRow>
+
+      <section>
+        <h1 className={clsx(secondary.className, styles.quoteTitle)}>
+          Here's what some nice folks have said about craft beer cares!
+        </h1>
+      </section>
     </PageTemplate>
   );
 }

@@ -6,13 +6,8 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header>
-      <div className={styles.headerMobile}>
+      <div className={styles.header}>
         <button className={styles.burgerMenuButton}>Menu</button>
-        <h1 className={clsx(secondary.className, styles.title)}>
-          Craft Beer Cares
-        </h1>
-      </div>
-      <div className={styles.headerDesktop}>
         <h1 className={clsx(secondary.className, styles.title)}>
           Craft Beer Cares
         </h1>

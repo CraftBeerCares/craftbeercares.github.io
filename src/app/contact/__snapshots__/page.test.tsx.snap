@@ -10,22 +10,13 @@ exports[`renders Contact page 1`] = `
     >
       <header>
         <div
-          class="headerMobile"
+          class="header"
         >
           <button
             class="burgerMenuButton"
           >
             Menu
           </button>
-          <h1
-            class="className title"
-          >
-            Craft Beer Cares
-          </h1>
-        </div>
-        <div
-          class="headerDesktop"
-        >
           <h1
             class="className title"
           >

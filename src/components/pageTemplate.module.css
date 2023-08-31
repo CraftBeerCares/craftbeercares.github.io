@@ -18,13 +18,14 @@
   margin-right: auto;
 }
 
+.contentContainer {
+  overflow-y: auto;
+}
+
 /* Mobile */
 @media (max-width: 700px) {
 }
 
 /* Tablet Smaller Desktop */
 @media (min-width: 701px) {
-  .contentContainer {
-    overflow-y: auto;
-  }
 }
