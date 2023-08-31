@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Craft Beer Cares",
 };
 
-export default function Page() {
+const Page = () => {
   return (
     <PageTemplate>
       <div className={styles.logoContainer}>
@@ -70,3 +70,5 @@ export default function Page() {
     </PageTemplate>
   );
 }
+
+export default Page;
