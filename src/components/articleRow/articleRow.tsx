@@ -8,7 +8,7 @@ interface ArticleRowProps {
     imageFirst: boolean;
 }
 
-const ArticleRow = ({ imageSrc, imageAlt, children, imageFirst} : ArticleRowProps) => {
+export const ArticleRow = ({ imageSrc, imageAlt, children, imageFirst} : ArticleRowProps) => {
     return (
         <div className={styles.articleRow}>
             {imageFirst && <div className={styles.articleImage}>

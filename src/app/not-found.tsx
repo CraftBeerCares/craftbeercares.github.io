@@ -1,4 +1,4 @@
-import PageTemplate from "@/components/pageTemplate";
+import {PageTemplate} from "@/components";
 
 export default function NotFound() {
   return (

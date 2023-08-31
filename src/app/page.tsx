@@ -1,10 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
-import { secondary } from "../styles/fonts";
+import { secondary } from "@/styles/fonts";
 import { clsx } from "clsx";
-import PageTemplate from "@/components/pageTemplate";
-import ArticleRow from "@/components/articleRow";
+import { PageTemplate, ArticleRow } from "@/components";
 import type { Metadata } from "next/";
 
 export const metadata: Metadata = {

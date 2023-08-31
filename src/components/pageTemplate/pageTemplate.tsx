@@ -1,14 +1,15 @@
 import styles from "./pageTemplate.module.css";
-import Footer from "./footer";
-import Header from "./header";
-import { primary } from "../styles/fonts";
+import { Footer, Header} from "@/components";
+import { primary } from "@/styles/fonts";
 import { clsx } from "clsx";
 
-export default function PageTemplate({
-  children,
-}: {
+interface PageTemplateProps {
   children: React.ReactNode;
-}) {
+}
+
+export const PageTemplate = ({
+  children,
+}: PageTemplateProps) => {
   return (
     <div className={styles.pageContainer}>
       <div className={styles.header}>

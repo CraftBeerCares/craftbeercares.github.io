@@ -1,10 +1,10 @@
 import styles from "./footer.module.css";
 import Image from "next/image";
-import { secondary } from "../styles/fonts";
+import { secondary } from "@/styles/fonts";
 import { clsx } from "clsx";
 import Link from "next/link";
 
-export default function Footer() {
+export const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerMobile}>

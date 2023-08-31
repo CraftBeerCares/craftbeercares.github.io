@@ -1,9 +1,9 @@
 import styles from "./header.module.css";
-import { secondary } from "../styles/fonts";
+import { secondary } from "@/styles/fonts";
 import { clsx } from "clsx";
 import Link from "next/link";
 
-export default function Header() {
+export const Header = () => {
   return (
     <header>
       <div className={styles.header}>
