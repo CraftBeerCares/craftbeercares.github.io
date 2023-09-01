@@ -5,9 +5,9 @@
   margin: 1rem;
 }
 
-.quoteTitle, .subTitle {
+.quoteTitle,
+.subTitle {
   text-align: center;
-  font-size: 3rem;
   margin: 2rem;
 }
 
@@ -34,12 +34,7 @@
 
   .subTitle {
     text-align: center;
-    font-size: 4rem;
     margin: 0rem 16rem 8rem 16rem;
-  }
-
-  .quoteTitle {
-    font-size: 4rem;
   }
 
   .navLink {

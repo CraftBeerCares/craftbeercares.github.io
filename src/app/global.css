@@ -2,6 +2,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-rgb: 255, 255, 255;
   --cbc-pink: #ff5a93;
+  --cbc-pale-pink: #f8d3df;
+
   --cbc-blue: #00bce3;
   --cbc-pale-grey: #ececec;
   --max-width: 100rem;
@@ -31,5 +33,18 @@ body {
 
   html {
     color-scheme: dark;
+  }
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Tablet Smaller Desktop */
+@media (min-width: 701px) {
+  h1 {
+    font-size: 4rem;
   }
 }

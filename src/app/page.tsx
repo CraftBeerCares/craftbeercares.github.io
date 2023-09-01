@@ -17,12 +17,10 @@ const Page = () => {
         <Image src="/assets/logo.svg" alt="Craft Beer Cares Logo" fill={true} />
       </div>
 
-      <section>
-        <h1 className={clsx(secondary.className, styles.subTitle)}>
-          Craft Beer Cares is a collective of beer lovers who want to do good
-          things.
-        </h1>
-      </section>
+      <h1 className={clsx(secondary.className, styles.subTitle)}>
+        Craft Beer Cares is a collective of beer lovers who want to do good
+        things.
+      </h1>
 
       <ArticleRow
         imageSrc="/assets/001.webp"

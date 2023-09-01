@@ -1,0 +1,29 @@
+.imageWithBlurb {
+  position: relative;
+  width: 100%;
+}
+
+.imageWrapper {
+  position: relative;
+  height: 40rem;
+}
+
+.article {
+  color: rgb(var(--background-rgb));
+  background-color: var(--cbc-pale-pink);
+  padding: 2rem 4rem;
+  z-index: 50;
+  font-size: 1.1rem;
+}
+
+/* Tablet Smaller Desktop */
+@media (min-width: 701px) {
+  .article {
+    position: absolute;
+    margin-left: 6rem;
+    margin-top: -10rem;
+    width: 70%;
+    max-width: 52rem;
+    text-align: justify;
+  }
+}

@@ -90,13 +90,11 @@ exports[`renders Home page 1`] = `
             style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
           />
         </div>
-        <section>
-          <h1
-            class="className subTitle"
-          >
-            Craft Beer Cares is a collective of beer lovers who want to do good things.
-          </h1>
-        </section>
+        <h1
+          class="className subTitle"
+        >
+          Craft Beer Cares is a collective of beer lovers who want to do good things.
+        </h1>
         <div
           class="articleRow"
         >
