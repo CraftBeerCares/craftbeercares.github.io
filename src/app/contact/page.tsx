@@ -1,10 +1,10 @@
-import { PageTemplate } from "@/components";
 import type { Metadata } from "next";
+import { Contact } from "./contact";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Contact",
 };
 
 export default function Page() {
-  return <PageTemplate>Contact</PageTemplate>;
+  return <Contact />;
 }

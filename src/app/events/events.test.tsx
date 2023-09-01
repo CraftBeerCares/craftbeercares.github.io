@@ -1,7 +1,7 @@
 import { render } from "@testing-library/react";
-import Page from "./page";
+import { Events } from "./events";
 
 it("renders Events page", () => {
-  const { container } = render(<Page />);
+  const { container } = render(<Events />);
   expect(container).toMatchSnapshot();
 });

@@ -1,7 +1,7 @@
 import { render } from "@testing-library/react";
-import Page from "./page";
+import { JoinUs } from "./joinUs";
 
 it("renders Join Us page", () => {
-  const { container } = render(<Page />);
+  const { container } = render(<JoinUs />);
   expect(container).toMatchSnapshot();
 });

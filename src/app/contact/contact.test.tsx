@@ -1,7 +1,7 @@
 import { render } from "@testing-library/react";
-import Page from "./page";
+import { Contact } from "./contact";
 
 it("renders Contact page", () => {
-  const { container } = render(<Page />);
+  const { container } = render(<Contact />);
   expect(container).toMatchSnapshot();
 });
