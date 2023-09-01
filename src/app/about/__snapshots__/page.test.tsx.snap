@@ -79,7 +79,7 @@ exports[`renders About page 1`] = `
         class="className mainContent"
       >
         <div
-          class="imageWithBlurb"
+          class="articleHeader"
         >
           <div
             class="imageWrapper"
@@ -99,16 +99,71 @@ exports[`renders About page 1`] = `
             class="article"
           >
             <h1
-              class="title className"
+              class="className"
             >
               The Craft Beer Cares Story
             </h1>
             <p>
               Craft Beer Cares was founded by Gautam Bhatnagar and Michaela Zelenanska in 2017. Inspired by other initiatives such as Cook for Syria that were happening at the time, the two took their social interests and contacts in craft beer and worked towards organising something that could raise money for great causes.
             </p>
-            <br />
             <p>
               Our first festival took place at BrewClub in Clapton, 1-2 July 2017. Since then, thanks to many friends and contacts within the craft beer industry as well as other wonderful friends, family members, volunteers, and enthusiastic attendees, we have held a grand total of 4 beer festivals within 4 years, and have raised over £50,000 for charitable organisations.
+            </p>
+          </article>
+        </div>
+        <div
+          class="articleRow"
+        >
+          <article
+            class="article"
+          >
+            <p>
+              Our most recent festival, Love Beer London, took place in partnership with the London Brewers Alliance and SIBA Southeast, and took place 13-15 February 2020, only a short month before COVID-19 brought the UK into its first lockdown.
+            </p>
+            <p>
+              Together, we managed to raise nearly £10,000 for The Benevolent, now called The Drinks Trust, a charity that provides support, care and assistance to people working in the drinks trade. Considering the upheaval many hospitality and drinks industry workers would find themselves in during the cycles of lockdown, furlough, reopening, and in some cases losing their jobs, we are glad to have been able to have contributed to such an incredible charity when we were able to do so.
+            </p>
+          </article>
+          <div
+            class="articleImage"
+          >
+            <img
+              alt="alt"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=%2Fassets%2F001.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Fassets%2F001.webp&w=640&q=75 640w, /_next/image?url=%2Fassets%2F001.webp&w=750&q=75 750w, /_next/image?url=%2Fassets%2F001.webp&w=828&q=75 828w, /_next/image?url=%2Fassets%2F001.webp&w=1080&q=75 1080w, /_next/image?url=%2Fassets%2F001.webp&w=1200&q=75 1200w, /_next/image?url=%2Fassets%2F001.webp&w=1920&q=75 1920w, /_next/image?url=%2Fassets%2F001.webp&w=2048&q=75 2048w, /_next/image?url=%2Fassets%2F001.webp&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: contain; color: transparent;"
+            />
+          </div>
+        </div>
+        <div
+          class="articleRow"
+        >
+          <div
+            class="articleImage"
+          >
+            <img
+              alt="alt"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=%2Fassets%2F001.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Fassets%2F001.webp&w=640&q=75 640w, /_next/image?url=%2Fassets%2F001.webp&w=750&q=75 750w, /_next/image?url=%2Fassets%2F001.webp&w=828&q=75 828w, /_next/image?url=%2Fassets%2F001.webp&w=1080&q=75 1080w, /_next/image?url=%2Fassets%2F001.webp&w=1200&q=75 1200w, /_next/image?url=%2Fassets%2F001.webp&w=1920&q=75 1920w, /_next/image?url=%2Fassets%2F001.webp&w=2048&q=75 2048w, /_next/image?url=%2Fassets%2F001.webp&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: contain; color: transparent;"
+            />
+          </div>
+          <article
+            class="article"
+          >
+            <p>
+              Although our current plans for our next festival event may be some months off, if not perhaps even a bit longer, we at Craft Beer Cares are keen to promote other events, organisations, fund-raisers, and programmes that are supporting charities and non-profit organisations big and small, taking place throughout the UK.
+            </p>
+            <p>
+              If you'd like to receive news about charity events within the beer industry, please sign up for our newsletter. And if you have an event or an initiative you're holding for a charity or another great cause, please let us know by contacting us.
             </p>
           </article>
         </div>
@@ -138,11 +193,11 @@ exports[`renders About page 1`] = `
           <div
             class="footerColumn"
           >
-            <h2
+            <h4
               class="className title"
             >
               Craft Beer Cares
-            </h2>
+            </h4>
             <nav
               class="className footerLinks"
             >
@@ -255,9 +310,31 @@ exports[`renders About page 1`] = `
             </div>
           </div>
           <div
-            class="footerColumn"
+            class="footerColumn rightColumn"
           >
-            Right
+            <div
+              class="signUpBox"
+            >
+              <h4
+                class="className title"
+              >
+                Sign Up for Our Monthlyish Newsletters
+              </h4>
+              <p
+                class="className signUpText"
+              >
+                Hear about upcoming events and initiatives from us and others pairing beer with charitable giving. We won’t share your info with anyone, and you can opt out at anytime.
+              </p>
+              <input
+                class="emailBox"
+                placeholder="Your e-mail"
+              />
+              <button
+                class="signUpButton"
+              >
+                Sign Up!
+              </button>
+            </div>
           </div>
         </div>
       </footer>

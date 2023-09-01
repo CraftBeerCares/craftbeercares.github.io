@@ -2,8 +2,7 @@ import styles from "./footer.module.css";
 import Image from "next/image";
 import { secondary } from "@/styles/fonts";
 import { clsx } from "clsx";
-import Link from "next/link";
-import Navigation from "../navigation/navigation";
+import { Navigation, SignUp } from "@/components";
 
 export const Footer = () => {
   return (
@@ -20,9 +19,9 @@ export const Footer = () => {
       </div>
       <div className={styles.footerDesktop}>
         <div className={styles.footerColumn}>
-          <h2 className={clsx(secondary.className, styles.title)}>
+          <h4 className={clsx(secondary.className, styles.title)}>
             Craft Beer Cares
-          </h2>
+          </h4>
           <Navigation
             navClassName={clsx(secondary.className, styles.footerLinks)}
             linkClassName={styles.navLink}
@@ -77,7 +76,9 @@ export const Footer = () => {
             />
           </div>
         </div>
-        <div className={styles.footerColumn}>Right</div>
+        <div className={clsx(styles.footerColumn, styles.rightColumn)}>
+          <SignUp />
+        </div>
       </div>
     </footer>
   );

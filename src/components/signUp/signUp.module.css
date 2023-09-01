@@ -1,0 +1,48 @@
+.signUpBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 18.75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.title {
+  margin-bottom: 0.75rem;
+}
+
+.signUpText {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-align: justify;
+  margin-bottom: 0.33rem;
+}
+
+.signUpButton,
+.emailBox {
+  background: white;
+  border: 2px solid var(--cbc-blue);
+  border-radius: 10px;
+  height: 2.625rem;
+  margin-top: 0.33rem;
+  padding: 1rem;
+}
+
+.emailBox:focus,
+.emailBox:focus-visible,
+.emailBox:focus-within {
+  outline: 1px solid var(--cbc-blue);
+}
+
+.emailBox::placeholder {
+  color: var(--cbc-light-grey);
+}
+
+.signUpButton {
+  background: var(--cbc-blue);
+}
+
+.signUpButton:hover {
+  outline: 1px solid var(--cbc-blue);
+}

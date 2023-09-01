@@ -118,7 +118,6 @@ exports[`renders Home page 1`] = `
             <p>
               We take part in events run by amazing people with a passion for fundraising, and have organised events combining charitable aims with the enjoyment of beer made by some of the most talented breweries in the UK and beyond.
             </p>
-            <br />
             <p>
               Our events have raised funds for charities such as Art Against Knives, Hackney Winter Night Shelter, Mind, The Newman Holiday Trust and more!
             </p>
@@ -143,7 +142,6 @@ exports[`renders Home page 1`] = `
             <p>
               Not only do we put on events, but we also shout about events that great pubs, bars, breweries, and other oganisations are doing to benefit good causes.
             </p>
-            <br />
             <p>
               Find out more about the events we organise and other good things happening by signing up to our newsletter, or by following us on Twitter, Facebook, or Instagram.
             </p>
@@ -196,11 +194,11 @@ exports[`renders Home page 1`] = `
           <div
             class="footerColumn"
           >
-            <h2
+            <h4
               class="className title"
             >
               Craft Beer Cares
-            </h2>
+            </h4>
             <nav
               class="className footerLinks"
             >
@@ -313,9 +311,31 @@ exports[`renders Home page 1`] = `
             </div>
           </div>
           <div
-            class="footerColumn"
+            class="footerColumn rightColumn"
           >
-            Right
+            <div
+              class="signUpBox"
+            >
+              <h4
+                class="className title"
+              >
+                Sign Up for Our Monthlyish Newsletters
+              </h4>
+              <p
+                class="className signUpText"
+              >
+                Hear about upcoming events and initiatives from us and others pairing beer with charitable giving. We won’t share your info with anyone, and you can opt out at anytime.
+              </p>
+              <input
+                class="emailBox"
+                placeholder="Your e-mail"
+              />
+              <button
+                class="signUpButton"
+              >
+                Sign Up!
+              </button>
+            </div>
           </div>
         </div>
       </footer>

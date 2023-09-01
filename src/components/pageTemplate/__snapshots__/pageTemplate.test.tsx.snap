@@ -105,11 +105,11 @@ exports[`renders Page Template 1`] = `
           <div
             class="footerColumn"
           >
-            <h2
+            <h4
               class="className title"
             >
               Craft Beer Cares
-            </h2>
+            </h4>
             <nav
               class="className footerLinks"
             >
@@ -222,9 +222,31 @@ exports[`renders Page Template 1`] = `
             </div>
           </div>
           <div
-            class="footerColumn"
+            class="footerColumn rightColumn"
           >
-            Right
+            <div
+              class="signUpBox"
+            >
+              <h4
+                class="className title"
+              >
+                Sign Up for Our Monthlyish Newsletters
+              </h4>
+              <p
+                class="className signUpText"
+              >
+                Hear about upcoming events and initiatives from us and others pairing beer with charitable giving. We won’t share your info with anyone, and you can opt out at anytime.
+              </p>
+              <input
+                class="emailBox"
+                placeholder="Your e-mail"
+              />
+              <button
+                class="signUpButton"
+              >
+                Sign Up!
+              </button>
+            </div>
           </div>
         </div>
       </footer>

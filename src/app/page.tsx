@@ -22,18 +22,13 @@ const Page = () => {
         things.
       </h1>
 
-      <ArticleRow
-        imageSrc="/assets/001.webp"
-        imageAlt="Image of Founder"
-        imageFirst={true}
-      >
+      <ArticleRow imageSrc="/assets/001.webp" imageAlt="Image of Founder">
         <p>
           We take part in events run by amazing people with a passion for
           fundraising, and have organised events combining charitable aims with
           the enjoyment of beer made by some of the most talented breweries in
           the UK and beyond.
         </p>
-        <br />
         <p>
           Our events have raised funds for charities such as Art Against Knives,
           Hackney Winter Night Shelter, Mind, The Newman Holiday Trust and more!
@@ -52,14 +47,13 @@ const Page = () => {
       <ArticleRow
         imageSrc="/assets/002.webp"
         imageAlt="DJ at Craft Beers Event"
-        imageFirst={false}
+        imagePosition="right"
       >
         <p>
           Not only do we put on events, but we also shout about events that
           great pubs, bars, breweries, and other oganisations are doing to
           benefit good causes.
         </p>
-        <br />
         <p>
           Find out more about the events we organise and other good things
           happening by signing up to our newsletter, or by following us on

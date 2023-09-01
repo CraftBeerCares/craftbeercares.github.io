@@ -5,16 +5,17 @@ interface ArticleHeaderProps {
   imageSrc: string;
   imageAlt: string;
   children: React.ReactNode[] | React.ReactNode;
-  imageFirst: boolean;
+  blurbPosition?: "left" | "right";
 }
 
 export const ArticleHeader = ({
   imageSrc,
   imageAlt,
   children,
+  blurbPosition = "left",
 }: ArticleHeaderProps) => {
   return (
-    <div className={styles.imageWithBlurb}>
+    <div className={styles.articleHeader}>
       <div className={styles.imageWrapper}>
         <Image
           src={imageSrc}
