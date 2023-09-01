@@ -1,12 +1,10 @@
-import Footer from '../../components/footer'
-import Header from '../../components/header'
+import type { Metadata } from "next";
+import { About } from "./about";
+
+export const metadata: Metadata = {
+  title: "About",
+};
 
 export default function Page() {
-  return (
-  <div className="container">
-    <Header />
-    <main>About</main>
-    <Footer />
-  </div>
-  )
+  return <About />;
 }

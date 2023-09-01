@@ -1,0 +1,43 @@
+.logoContainer {
+  width: auto;
+  height: 50vh;
+  position: relative;
+  margin: 1rem;
+}
+
+.quoteTitle,
+.subTitle {
+  text-align: center;
+  margin: 2rem;
+}
+
+.linkContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.navLink {
+  text-decoration: none;
+  color: var(--foreground-rgb);
+  font-size: 3rem;
+}
+
+/* Tablet Smaller Desktop */
+@media (min-width: 701px) {
+  .logoContainer {
+    width: auto;
+    height: 75vh;
+    position: relative;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .subTitle {
+    text-align: center;
+    margin: 0rem 16rem 8rem 16rem;
+  }
+
+  .navLink {
+    font-size: 4rem;
+  }
+}

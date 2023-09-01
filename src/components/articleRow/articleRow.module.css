@@ -1,0 +1,44 @@
+.articleRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article {
+  text-align: justify;
+  border-top: 3px solid var(--cbc-pink);
+  padding: 2rem 0.5rem;
+  border-bottom: 3px solid var(--cbc-pink);
+  height: fit-content;
+  margin: 2rem 2rem;
+}
+
+.article p {
+  margin: 1.5rem 0rem;
+}
+
+.articleImage {
+  position: relative;
+  width: 80vw;
+  height: 25rem;
+}
+
+/* Tablet Smaller Desktop */
+@media (min-width: 701px) {
+  .articleRow {
+    flex-direction: row;
+    margin: 4rem;
+  }
+
+  .article {
+    flex: 0 1 50%;
+    height: fit-content;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .articleImage {
+    flex: 0 0 50%;
+    position: relative;
+  }
+}
