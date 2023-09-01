@@ -58,7 +58,7 @@ export const Home = () => {
 
       <section>
         <h1 className={clsx(secondary.className, styles.quoteTitle)}>
-          Here's what some nice folks have said about craft beer cares!
+          Here&apos;s what some nice folks have said about craft beer cares!
         </h1>
       </section>
     </PageTemplate>

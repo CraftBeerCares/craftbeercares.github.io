@@ -33,7 +33,7 @@ export const JoinUs = () => {
           world of beer!
         </p>
         <p>
-          We will be publishing the newsletter on a monthly basis. If you&#39;d
+          We will be publishing the newsletter on a monthly basis. If you&apos;d
           like to hear more from us, please be sure to follow us on Twitter,
           Facebook and Instagram, too.
         </p>
@@ -48,8 +48,8 @@ export const JoinUs = () => {
           If you would like to be involved in volunteering for our next event,
           please watch this space for future announcements of opportunities to
           be part of the team. Volunteers help us donate as much money as
-          possible to our partner charities, and we&#39;re thrilled to say
-          we&#39;ve had many repeat volunteers helping out over the years--you
+          possible to our partner charities, and we&apos;re thrilled to say
+          we&apos;ve had many repeat volunteers helping out over the years--you
           know who you are!
         </p>
       </ArticleRow>
@@ -60,13 +60,13 @@ export const JoinUs = () => {
       >
         <p>
           We are always looking to support and shout about other events and
-          activities doing good for the community, whether it&#39;s through
+          activities doing good for the community, whether it&apos;s through
           charity fundraising or organisational involvement.
         </p>
         <p>
           If you want to get in touch about something charity-focused you are
           organising, or want to tip us off about a beer-related fundraising
-          event, please contact us with as much detail as possible. We&#39;d
+          event, please contact us with as much detail as possible. We&apos;d
           love to hear from you!
         </p>
       </ArticleRow>

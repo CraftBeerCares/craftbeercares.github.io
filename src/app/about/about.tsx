@@ -54,10 +54,10 @@ export const About = () => {
           big and small, taking place throughout the UK.
         </p>
         <p>
-          If you&#39;d like to receive news about charity events within the beer
-          industry, please sign up for our newsletter. And if you have an event
-          or an initiative you&#39;re holding for a charity or another great
-          cause, please let us know by contacting us.
+          If you&apos;d like to receive news about charity events within the
+          beer industry, please sign up for our newsletter. And if you have an
+          event or an initiative you&apos;re holding for a charity or another
+          great cause, please let us know by contacting us.
         </p>
       </ArticleRow>
     </PageTemplate>
