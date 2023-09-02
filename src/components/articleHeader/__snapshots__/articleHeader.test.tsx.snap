@@ -20,7 +20,7 @@ exports[`renders ArticleHeader 1`] = `
       />
     </div>
     <article
-      class="article"
+      class="article articleLeft"
     >
       <p>
         Hello

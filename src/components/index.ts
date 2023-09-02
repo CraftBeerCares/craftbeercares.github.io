@@ -5,6 +5,7 @@ export { PageTemplate } from "./pageTemplate/pageTemplate";
 export { ArticleHeader } from "./articleHeader/articleHeader";
 export { SignUp } from "./signUp/signUp";
 export { Navigation } from "./navigation/navigation";
+export { Thanks } from "./thanks/thanks";
 
 export enum Position {
   Left = "left",

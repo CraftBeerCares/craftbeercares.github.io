@@ -1,6 +1,6 @@
-import { PageTemplate, ArticleHeader, ArticleRow } from "@/components";
+import { PageTemplate, ArticleHeader, ArticleRow, Thanks } from "@/components";
 import { secondary } from "@/styles/fonts";
-import styles from "./page.module.css";
+import styles from "./about.module.css";
 import clsx from "clsx";
 
 export const About = () => {
@@ -60,6 +60,9 @@ export const About = () => {
           great cause, please let us know by contacting us.
         </p>
       </ArticleRow>
+      <div className={styles.thanks}>
+        <Thanks />
+      </div>
     </PageTemplate>
   );
 };
