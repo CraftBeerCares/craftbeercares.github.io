@@ -78,7 +78,39 @@ exports[`renders Events page 1`] = `
       <main
         class="className mainContent"
       >
-        Events
+        <div
+          class="articleHeader"
+        >
+          <div
+            class="imageWrapper"
+          >
+            <img
+              alt="A picture of me"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=%2Fassets%2F003.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Fassets%2F003.webp&w=640&q=75 640w, /_next/image?url=%2Fassets%2F003.webp&w=750&q=75 750w, /_next/image?url=%2Fassets%2F003.webp&w=828&q=75 828w, /_next/image?url=%2Fassets%2F003.webp&w=1080&q=75 1080w, /_next/image?url=%2Fassets%2F003.webp&w=1200&q=75 1200w, /_next/image?url=%2Fassets%2F003.webp&w=1920&q=75 1920w, /_next/image?url=%2Fassets%2F003.webp&w=2048&q=75 2048w, /_next/image?url=%2Fassets%2F003.webp&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+            />
+          </div>
+          <article
+            class="article articleRight"
+          >
+            <h1
+              class="className"
+            >
+              Craft Beer Cares to Return!
+            </h1>
+            <p>
+              It has been quite a while since our last festival, Love Beer London, and even longer since our eponymous festival, Craft Beer Cares. We've missed everyone, and can't wait to announce our next major event.
+            </p>
+            <p>
+              Our next festival is currently a work in progress, and we are looking at dates for a 2024 beery bash with a focus on fundraising for great causes.
+            </p>
+          </article>
+        </div>
       </main>
       <footer
         class="footer"

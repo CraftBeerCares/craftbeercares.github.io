@@ -22,7 +22,7 @@
   display: inline-block;
   font-size: 4rem;
   font-weight: 700;
-  margin: 1.5rem 0rem 2rem 0rem;
+  margin: 1.5rem 0rem 1.75rem 0rem;
 }
 
 .article p {
@@ -35,10 +35,18 @@
 @media (min-width: 701px) {
   .article {
     position: relative;
-    margin-left: 6rem;
     margin-top: -10rem;
     width: 70%;
     max-width: 52rem;
     text-align: justify;
+  }
+
+  .articleLeft {
+    margin-left: 6rem;
+  }
+
+  .articleRight {
+    margin-left: auto;
+    margin-right: 6rem;
   }
 }

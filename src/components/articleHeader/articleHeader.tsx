@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./articleHeader.module.css";
+import clsx from "clsx";
 
 interface ArticleHeaderProps {
   imageSrc: string;
@@ -14,6 +15,9 @@ export const ArticleHeader = ({
   children,
   blurbPosition = "left",
 }: ArticleHeaderProps) => {
+  const positionClass =
+    blurbPosition === "left" ? styles.articleLeft : styles.articleRight;
+
   return (
     <div className={styles.articleHeader}>
       <div className={styles.imageWrapper}>
@@ -24,7 +28,9 @@ export const ArticleHeader = ({
           style={{ objectFit: "cover" }}
         />
       </div>
-      <article className={styles.article}>{children}</article>
+      <article className={clsx(styles.article, positionClass)}>
+        {children}
+      </article>
     </div>
   );
 };
