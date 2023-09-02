@@ -370,3 +370,376 @@ exports[`renders Join Us page 1`] = `
   </div>
 </div>
 `;
+
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Join Us page 1`] = `
+<div>
+  <div
+    class="pageContainer"
+  >
+    <div
+      class="header"
+    >
+      <header>
+        <div
+          class="header"
+        >
+          <button
+            class="burgerMenuButton"
+          >
+            <img
+              alt="Burger Menu"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              src="/assets/menu.svg"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: contain; color: transparent; filter: invert(1);"
+            />
+          </button>
+          <h1
+            class="className title"
+          >
+            Craft Beer Cares
+          </h1>
+          <nav
+            class="topNav className"
+          >
+            <a
+              class="navLink"
+              href="/"
+            >
+              Home
+            </a>
+            <a
+              class="navLink"
+              href="/about"
+            >
+              About
+            </a>
+            <a
+              class="navLink"
+              href="/join_us"
+            >
+              Join Us
+            </a>
+            <a
+              class="navLink"
+              href="/events"
+            >
+              Events
+            </a>
+            <a
+              class="navLink"
+              href="/shop"
+            >
+              Shop
+            </a>
+            <a
+              class="navLink"
+              href="/contact"
+            >
+              Contact
+            </a>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <div
+      class="contentContainer"
+    >
+      <main
+        class="className mainContent"
+      >
+        <div
+          class="articleHeader"
+        >
+          <div
+            class="imageWrapper"
+          >
+            <img
+              alt="A picture of me"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=%2Fassets%2F003.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Fassets%2F003.webp&w=640&q=75 640w, /_next/image?url=%2Fassets%2F003.webp&w=750&q=75 750w, /_next/image?url=%2Fassets%2F003.webp&w=828&q=75 828w, /_next/image?url=%2Fassets%2F003.webp&w=1080&q=75 1080w, /_next/image?url=%2Fassets%2F003.webp&w=1200&q=75 1200w, /_next/image?url=%2Fassets%2F003.webp&w=1920&q=75 1920w, /_next/image?url=%2Fassets%2F003.webp&w=2048&q=75 2048w, /_next/image?url=%2Fassets%2F003.webp&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+            />
+          </div>
+          <article
+            class="article articleLeft"
+          >
+            <h1
+              class="title className"
+            >
+              Get Involved!
+            </h1>
+            <p>
+              Craft Beer Cares is a group that seeks to find ways people can “drink beer and do good,” which is done by organising our own events, or by sharing across activities and initiatives that support charities, organisations, and other good folks.
+            </p>
+            <p>
+              There are a number of ways you can get involved in helping us out, so keep reading and keep in touch!
+            </p>
+          </article>
+        </div>
+        <div
+          class="articleRow"
+        >
+          <article
+            class="article"
+          >
+            <p>
+              Sign up to the Craft Beer Cares newsletter to hear about events we are planning, as well as to find about other charitable events and fundraisers happening in the UK, and other good stuff happening in the world of beer!
+            </p>
+            <p>
+              We will be publishing the newsletter on a monthly basis. If you'd like to hear more from us, please be sure to follow us on Twitter, Facebook and Instagram, too.
+            </p>
+          </article>
+          <div
+            class="articleImage"
+          >
+            <img
+              alt="alt"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=%2Fassets%2F001.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Fassets%2F001.webp&w=640&q=75 640w, /_next/image?url=%2Fassets%2F001.webp&w=750&q=75 750w, /_next/image?url=%2Fassets%2F001.webp&w=828&q=75 828w, /_next/image?url=%2Fassets%2F001.webp&w=1080&q=75 1080w, /_next/image?url=%2Fassets%2F001.webp&w=1200&q=75 1200w, /_next/image?url=%2Fassets%2F001.webp&w=1920&q=75 1920w, /_next/image?url=%2Fassets%2F001.webp&w=2048&q=75 2048w, /_next/image?url=%2Fassets%2F001.webp&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: contain; color: transparent;"
+            />
+          </div>
+        </div>
+        <div
+          class="articleRow"
+        >
+          <div
+            class="articleImage"
+          >
+            <img
+              alt="alt"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=%2Fassets%2F001.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Fassets%2F001.webp&w=640&q=75 640w, /_next/image?url=%2Fassets%2F001.webp&w=750&q=75 750w, /_next/image?url=%2Fassets%2F001.webp&w=828&q=75 828w, /_next/image?url=%2Fassets%2F001.webp&w=1080&q=75 1080w, /_next/image?url=%2Fassets%2F001.webp&w=1200&q=75 1200w, /_next/image?url=%2Fassets%2F001.webp&w=1920&q=75 1920w, /_next/image?url=%2Fassets%2F001.webp&w=2048&q=75 2048w, /_next/image?url=%2Fassets%2F001.webp&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: contain; color: transparent;"
+            />
+          </div>
+          <article
+            class="article"
+          >
+            <p>
+              We are incredibly grateful to all of the volunteers we have had to make our festivals be incredibly fun and successful fundraising events.
+            </p>
+            <p>
+              If you would like to be involved in volunteering for our next event, please watch this space for future announcements of opportunities to be part of the team. Volunteers help us donate as much money as possible to our partner charities, and we're thrilled to say we've had many repeat volunteers helping out over the years--you know who you are!
+            </p>
+          </article>
+        </div>
+        <div
+          class="articleRow"
+        >
+          <article
+            class="article"
+          >
+            <p>
+              We are always looking to support and shout about other events and activities doing good for the community, whether it's through charity fundraising or organisational involvement.
+            </p>
+            <p>
+              If you want to get in touch about something charity-focused you are organising, or want to tip us off about a beer-related fundraising event, please contact us with as much detail as possible. We'd love to hear from you!
+            </p>
+          </article>
+          <div
+            class="articleImage"
+          >
+            <img
+              alt="alt"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=%2Fassets%2F001.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Fassets%2F001.webp&w=640&q=75 640w, /_next/image?url=%2Fassets%2F001.webp&w=750&q=75 750w, /_next/image?url=%2Fassets%2F001.webp&w=828&q=75 828w, /_next/image?url=%2Fassets%2F001.webp&w=1080&q=75 1080w, /_next/image?url=%2Fassets%2F001.webp&w=1200&q=75 1200w, /_next/image?url=%2Fassets%2F001.webp&w=1920&q=75 1920w, /_next/image?url=%2Fassets%2F001.webp&w=2048&q=75 2048w, /_next/image?url=%2Fassets%2F001.webp&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: contain; color: transparent;"
+            />
+          </div>
+        </div>
+      </main>
+      <footer
+        class="footer"
+      >
+        <div
+          class="footerMobile"
+        >
+          <div
+            class="footerLogo"
+          >
+            <img
+              alt="Craft Beer Cares Logo"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              src="/assets/logo_bw.svg"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; filter: invert(1);"
+            />
+          </div>
+        </div>
+        <div
+          class="footerDesktop"
+        >
+          <div
+            class="footerColumn"
+          >
+            <h4
+              class="className title"
+            >
+              Craft Beer Cares
+            </h4>
+            <nav
+              class="className footerLinks"
+            >
+              <a
+                class="navLink"
+                href="/"
+              >
+                Home
+              </a>
+              <a
+                class="navLink"
+                href="/about"
+              >
+                About
+              </a>
+              <a
+                class="navLink"
+                href="/join_us"
+              >
+                Join Us
+              </a>
+              <a
+                class="navLink"
+                href="/events"
+              >
+                Events
+              </a>
+              <a
+                class="navLink"
+                href="/shop"
+              >
+                Shop
+              </a>
+              <a
+                class="navLink"
+                href="/contact"
+              >
+                Contact
+              </a>
+            </nav>
+            <div
+              class="socialLinks"
+            >
+              <a
+                class="socialLink"
+                href="https://www.facebook.com/craftbeercares"
+              >
+                <img
+                  alt="Facebook"
+                  data-nimg="1"
+                  decoding="async"
+                  height="30"
+                  loading="lazy"
+                  src="/assets/facebook.svg"
+                  style="color: transparent;"
+                  width="30"
+                />
+              </a>
+              <a
+                class="socialLink"
+                href="https://www.instagram.com/craftbeercares/"
+              >
+                <img
+                  alt="Instagram"
+                  data-nimg="1"
+                  decoding="async"
+                  height="30"
+                  loading="lazy"
+                  src="/assets/instagram.svg"
+                  style="color: transparent;"
+                  width="30"
+                />
+              </a>
+              <a
+                class="socialLink"
+                href="https://twitter.com/craftbeercares"
+              >
+                <img
+                  alt="Twitter"
+                  data-nimg="1"
+                  decoding="async"
+                  height="30"
+                  loading="lazy"
+                  src="/assets/twitter.svg"
+                  style="color: transparent;"
+                  width="30"
+                />
+              </a>
+            </div>
+            <div
+              class="className footerQuote"
+            >
+              Craft Beer Cares - Drinking beer for good Stuff since 2017
+            </div>
+          </div>
+          <div
+            class="footerColumn"
+          >
+            <div
+              class="footerLogo"
+            >
+              <img
+                alt="Craft Beer Cares Logo"
+                data-nimg="fill"
+                decoding="async"
+                loading="lazy"
+                src="/assets/logo_bw.svg"
+                style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; filter: invert(1);"
+              />
+            </div>
+          </div>
+          <div
+            class="footerColumn rightColumn"
+          >
+            <div
+              class="signUpBox"
+            >
+              <h4
+                class="className title"
+              >
+                Sign Up for Our Monthlyish Newsletters
+              </h4>
+              <p
+                class="className signUpText"
+              >
+                Hear about upcoming events and initiatives from us and others pairing beer with charitable giving. We won’t share your info with anyone, and you can opt out at anytime.
+              </p>
+              <input
+                class="emailBox"
+                placeholder="Your e-mail"
+              />
+              <button
+                class="signUpButton"
+              >
+                Sign Up!
+              </button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+`;

@@ -42,3 +42,56 @@
     text-align: justify;
   }
 }
+
+.articleHeader {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+}
+
+.imageWrapper {
+  position: relative;
+  height: 40rem;
+}
+
+.article {
+  color: rgb(var(--background-rgb));
+  background-color: var(--cbc-pale-pink);
+  padding: 2rem 4rem;
+  z-index: 50;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.article h1 {
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 1.5rem 0rem 1.75rem 0rem;
+}
+
+.article p {
+  display: inline-block;
+  margin: 1rem 0rem;
+  line-height: 1.5rem;
+}
+
+/* Tablet Smaller Desktop */
+@media (min-width: 701px) {
+  .article {
+    position: relative;
+    margin-top: -10rem;
+    width: 70%;
+    max-width: 52rem;
+    text-align: justify;
+  }
+
+  .articleLeft {
+    margin-left: 6rem;
+  }
+
+  .articleRight {
+    margin-left: auto;
+    margin-right: 6rem;
+  }
+}

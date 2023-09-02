@@ -1,2 +1,14 @@
-.title {
+.thanks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tablet Smaller Desktop */
+@media (min-width: 701px) {
+  .thanks {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
