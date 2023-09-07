@@ -2,7 +2,7 @@
   height: 26.25rem;
   width: 25.5rem;
   background-color: var(--cbc-pale-blue);
-  margin: 1rem;
+  margin: 1rem 1rem 1rem 0rem;
   text-align: center;
   color: black;
   display: flex;

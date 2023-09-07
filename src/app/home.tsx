@@ -4,6 +4,7 @@ import styles from "./home.module.css";
 import { secondary } from "@/styles/fonts";
 import { clsx } from "clsx";
 import { PageTemplate, ArticleRow } from "@/components";
+import Testimonials from "@/components/testimonials/testimonials";
 
 export const Home = () => {
   return (
@@ -60,6 +61,10 @@ export const Home = () => {
         <h1 className={clsx(secondary.className, styles.quoteTitle)}>
           Here&apos;s what some nice folks have said about craft beer cares!
         </h1>
+      </section>
+
+      <section className={styles.quoteContainer}>
+        <Testimonials />
       </section>
     </PageTemplate>
   );

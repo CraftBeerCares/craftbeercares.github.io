@@ -1,0 +1,23 @@
+.controls {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.button {
+  flex: 0 0 auto;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+.quoteBox {
+  margin: 0;
+  padding: 0;
+}

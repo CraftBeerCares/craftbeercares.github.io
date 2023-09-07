@@ -22,7 +22,7 @@ export const ArticleRow = ({
             src={imageSrc}
             alt={imageAlt}
             fill={true}
-            style={{ objectFit: "contain" }}
+            style={{ width: "100%" }}
           />
         </div>
       )}
