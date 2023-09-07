@@ -6,24 +6,38 @@
 }
 
 .header {
+  z-index: 100;
   position: sticky;
   top: 0;
   border-bottom: 3px solid var(--cbc-pink);
 }
 
-.mainContent {
+.scrollContainer {
+  overflow-y: auto;
+}
+
+.content {
   flex-grow: 1;
   max-width: var(--max-width);
   margin-left: auto;
   margin-right: auto;
 }
 
-.contentContainer {
-  overflow-y: auto;
+.footer {
+  height: 18.75rem;
+  background-color: var(--cbc-pink);
 }
 
 /* Mobile */
 @media (max-width: 700px) {
+}
+
+/* Mobile */
+@media (min-width: 701px) and (max-width: 102rem) {
+  .content {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
 }
 
 /* Tablet Smaller Desktop */

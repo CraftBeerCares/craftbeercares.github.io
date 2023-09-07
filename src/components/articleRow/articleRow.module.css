@@ -10,7 +10,6 @@
   padding: 2rem 0.5rem;
   border-bottom: 3px solid var(--cbc-pink);
   height: fit-content;
-  margin: 2rem 2rem;
 }
 
 .article p {
@@ -19,22 +18,19 @@
 
 .articleImage {
   position: relative;
-  width: 80vw;
-  height: 25rem;
+  width: 100vw;
+  align-items: flex-start;
 }
 
 /* Tablet Smaller Desktop */
 @media (min-width: 701px) {
   .articleRow {
     flex-direction: row;
-    margin: 4rem;
   }
 
   .article {
     flex: 0 1 50%;
     height: fit-content;
-    margin-left: 4rem;
-    margin-right: 4rem;
   }
 
   .articleImage {

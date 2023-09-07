@@ -22,14 +22,16 @@
   font-size: 3rem;
 }
 
+.quoteContainer {
+  flex: 0 0 auto;
+}
+
 /* Tablet Smaller Desktop */
 @media (min-width: 701px) {
   .logoContainer {
     width: auto;
     height: 75vh;
     position: relative;
-    margin-left: 4rem;
-    margin-right: 4rem;
   }
 
   .subTitle {
