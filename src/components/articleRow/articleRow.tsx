@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./articleRow.module.css";
+import clsx from "clsx";
 
 interface ArticleRowProps {
   imageSrc: string;
@@ -14,21 +15,13 @@ export const ArticleRow = ({
   children,
   imagePosition = "left",
 }: ArticleRowProps) => {
+
+  const articlePositionClassName = imagePosition === "left" ? styles.articleRight : styles.articleLeft
+  const imagePositionClassName = imagePosition === "right" ? styles.imageRight : styles.imageLeft
+
   return (
     <div className={styles.articleRow}>
-      {imagePosition === "left" && (
-        <div className={styles.articleImage}>
-          <Image
-            src={imageSrc}
-            alt={imageAlt}
-            fill={true}
-            style={{ width: "100%" }}
-          />
-        </div>
-      )}
-      <article className={styles.article}>{children}</article>
-      {imagePosition === "right" && (
-        <div className={styles.articleImage}>
+        <div className={clsx(styles.articleImage, imagePositionClassName)}>
           <Image
             src={imageSrc}
             alt={imageAlt}
@@ -36,7 +29,7 @@ export const ArticleRow = ({
             style={{ objectFit: "contain" }}
           />
         </div>
-      )}
+      <article className={clsx(styles.article, articlePositionClassName)}>{children}</article>
     </div>
   );
 };
