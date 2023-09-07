@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders ArticleRow imageFirst=false 1`] = `
+exports[`renders Quote 1`] = `
 <div>
   <div
     class="quoteBox"
@@ -18,7 +18,9 @@ exports[`renders ArticleRow imageFirst=false 1`] = `
     />
     <p
       class="quote"
-    />
+    >
+      quote
+    </p>
     <img
       alt="Quote End"
       class="quoteImage"
@@ -32,44 +34,9 @@ exports[`renders ArticleRow imageFirst=false 1`] = `
     />
     <p
       class="author"
-    />
-  </div>
-</div>
-`;
-
-exports[`renders ArticleRow imageFirst=true 1`] = `
-<div>
-  <div
-    class="quoteBox"
-  >
-    <img
-      alt="Quote Start"
-      class="quoteImage"
-      data-nimg="1"
-      decoding="async"
-      height="24"
-      loading="lazy"
-      src="/assets/quote_start.svg"
-      style="color: transparent;"
-      width="24"
-    />
-    <p
-      class="quote"
-    />
-    <img
-      alt="Quote End"
-      class="quoteImage"
-      data-nimg="1"
-      decoding="async"
-      height="24"
-      loading="lazy"
-      src="/assets/quote_end.svg"
-      style="color: transparent;"
-      width="24"
-    />
-    <p
-      class="author"
-    />
+    >
+      author
+    </p>
   </div>
 </div>
 `;

@@ -8,112 +8,32 @@ exports[`renders Not Found 1`] = `
     <div
       class="header"
     >
-      <header>
-        <div
-          class="header"
-        >
-          <button
-            class="burgerMenuButton"
-          >
-            <img
-              alt="Burger Menu"
-              data-nimg="fill"
-              decoding="async"
-              loading="lazy"
-              src="/assets/menu.svg"
-              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: contain; color: transparent; filter: invert(1);"
-            />
-          </button>
-          <h1
-            class="className title"
-          >
-            Craft Beer Cares
-          </h1>
-          <nav
-            class="topNav className"
-          >
-            <a
-              class="navLink"
-              href="/"
-            >
-              Home
-            </a>
-            <a
-              class="navLink"
-              href="/about"
-            >
-              About
-            </a>
-            <a
-              class="navLink"
-              href="/join_us"
-            >
-              Join Us
-            </a>
-            <a
-              class="navLink"
-              href="/events"
-            >
-              Events
-            </a>
-            <a
-              class="navLink"
-              href="/shop"
-            >
-              Shop
-            </a>
-            <a
-              class="navLink"
-              href="/contact"
-            >
-              Contact
-            </a>
-          </nav>
-        </div>
-      </header>
-    </div>
-    <div
-      class="contentContainer"
-    >
-      <main
-        class="className mainContent"
+      <div
+        class="content"
       >
-        <h1>
-          Page Not Found
-        </h1>
-      </main>
-      <footer
-        class="footer"
-      >
-        <div
-          class="footerMobile"
-        >
+        <header>
           <div
-            class="footerLogo"
+            class="header"
           >
-            <img
-              alt="Craft Beer Cares Logo"
-              data-nimg="fill"
-              decoding="async"
-              loading="lazy"
-              src="/assets/logo_bw.svg"
-              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; filter: invert(1);"
-            />
-          </div>
-        </div>
-        <div
-          class="footerDesktop"
-        >
-          <div
-            class="footerColumn"
-          >
-            <h4
+            <button
+              class="burgerMenuButton"
+            >
+              <img
+                alt="Burger Menu"
+                data-nimg="fill"
+                decoding="async"
+                loading="lazy"
+                src="/assets/menu.svg"
+                style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: contain; color: transparent; filter: invert(1);"
+              />
+            </button>
+            <h1
               class="className title"
             >
               Craft Beer Cares
-            </h4>
+            </h1>
             <nav
-              class="className footerLinks"
+              class="topNav className"
             >
               <a
                 class="navLink"
@@ -152,106 +72,198 @@ exports[`renders Not Found 1`] = `
                 Contact
               </a>
             </nav>
-            <div
-              class="socialLinks"
-            >
-              <a
-                class="socialLink"
-                href="https://www.facebook.com/craftbeercares"
-              >
-                <img
-                  alt="Facebook"
-                  data-nimg="1"
-                  decoding="async"
-                  height="30"
-                  loading="lazy"
-                  src="/assets/facebook.svg"
-                  style="color: transparent;"
-                  width="30"
-                />
-              </a>
-              <a
-                class="socialLink"
-                href="https://www.instagram.com/craftbeercares/"
-              >
-                <img
-                  alt="Instagram"
-                  data-nimg="1"
-                  decoding="async"
-                  height="30"
-                  loading="lazy"
-                  src="/assets/instagram.svg"
-                  style="color: transparent;"
-                  width="30"
-                />
-              </a>
-              <a
-                class="socialLink"
-                href="https://twitter.com/craftbeercares"
-              >
-                <img
-                  alt="Twitter"
-                  data-nimg="1"
-                  decoding="async"
-                  height="30"
-                  loading="lazy"
-                  src="/assets/twitter.svg"
-                  style="color: transparent;"
-                  width="30"
-                />
-              </a>
-            </div>
-            <div
-              class="className footerQuote"
-            >
-              Craft Beer Cares - Drinking beer for good Stuff since 2017
-            </div>
           </div>
-          <div
-            class="footerColumn"
+        </header>
+      </div>
+    </div>
+    <div
+      class="scrollContainer"
+    >
+      <main
+        class="className content"
+      >
+        <h1>
+          Page Not Found
+        </h1>
+      </main>
+      <div
+        class="footer"
+      >
+        <div
+          class="content"
+        >
+          <footer
+            class="footer"
           >
             <div
-              class="footerLogo"
+              class="footerMobile"
             >
-              <img
-                alt="Craft Beer Cares Logo"
-                data-nimg="fill"
-                decoding="async"
-                loading="lazy"
-                src="/assets/logo_bw.svg"
-                style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; filter: invert(1);"
-              />
+              <div
+                class="footerLogo"
+              >
+                <img
+                  alt="Craft Beer Cares Logo"
+                  data-nimg="fill"
+                  decoding="async"
+                  loading="lazy"
+                  src="/assets/logo_bw.svg"
+                  style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; filter: invert(1);"
+                />
+              </div>
             </div>
-          </div>
-          <div
-            class="footerColumn rightColumn"
-          >
             <div
-              class="signUpBox"
+              class="footerDesktop"
             >
-              <h4
-                class="className title"
+              <div
+                class="footerColumn"
               >
-                Sign Up for Our Monthlyish Newsletters
-              </h4>
-              <p
-                class="className signUpText"
+                <h4
+                  class="className title"
+                >
+                  Craft Beer Cares
+                </h4>
+                <nav
+                  class="className footerLinks"
+                >
+                  <a
+                    class="navLink"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                  <a
+                    class="navLink"
+                    href="/about"
+                  >
+                    About
+                  </a>
+                  <a
+                    class="navLink"
+                    href="/join_us"
+                  >
+                    Join Us
+                  </a>
+                  <a
+                    class="navLink"
+                    href="/events"
+                  >
+                    Events
+                  </a>
+                  <a
+                    class="navLink"
+                    href="/shop"
+                  >
+                    Shop
+                  </a>
+                  <a
+                    class="navLink"
+                    href="/contact"
+                  >
+                    Contact
+                  </a>
+                </nav>
+                <div
+                  class="socialLinks"
+                >
+                  <a
+                    class="socialLink"
+                    href="https://www.facebook.com/craftbeercares"
+                  >
+                    <img
+                      alt="Facebook"
+                      data-nimg="1"
+                      decoding="async"
+                      height="30"
+                      loading="lazy"
+                      src="/assets/facebook.svg"
+                      style="color: transparent;"
+                      width="30"
+                    />
+                  </a>
+                  <a
+                    class="socialLink"
+                    href="https://www.instagram.com/craftbeercares/"
+                  >
+                    <img
+                      alt="Instagram"
+                      data-nimg="1"
+                      decoding="async"
+                      height="30"
+                      loading="lazy"
+                      src="/assets/instagram.svg"
+                      style="color: transparent;"
+                      width="30"
+                    />
+                  </a>
+                  <a
+                    class="socialLink"
+                    href="https://twitter.com/craftbeercares"
+                  >
+                    <img
+                      alt="Twitter"
+                      data-nimg="1"
+                      decoding="async"
+                      height="30"
+                      loading="lazy"
+                      src="/assets/twitter.svg"
+                      style="color: transparent;"
+                      width="30"
+                    />
+                  </a>
+                </div>
+                <div
+                  class="className footerQuote"
+                >
+                  Craft Beer Cares - Drinking beer for good Stuff since 2017
+                </div>
+              </div>
+              <div
+                class="footerColumn"
               >
-                Hear about upcoming events and initiatives from us and others pairing beer with charitable giving. We won’t share your info with anyone, and you can opt out at anytime.
-              </p>
-              <input
-                class="emailBox"
-                placeholder="Your e-mail"
-              />
-              <button
-                class="signUpButton"
+                <div
+                  class="footerLogo"
+                >
+                  <img
+                    alt="Craft Beer Cares Logo"
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    src="/assets/logo_bw.svg"
+                    style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; filter: invert(1);"
+                  />
+                </div>
+              </div>
+              <div
+                class="footerColumn rightColumn"
               >
-                Sign Up!
-              </button>
+                <div
+                  class="signUpBox"
+                >
+                  <h4
+                    class="className title"
+                  >
+                    Sign Up for Our Monthlyish Newsletters
+                  </h4>
+                  <p
+                    class="className signUpText"
+                  >
+                    Hear about upcoming events and initiatives from us and others pairing beer with charitable giving. We won’t share your info with anyone, and you can opt out at anytime.
+                  </p>
+                  <input
+                    class="emailBox"
+                    placeholder="Your e-mail"
+                  />
+                  <button
+                    class="signUpButton"
+                  >
+                    Sign Up!
+                  </button>
+                </div>
+              </div>
             </div>
-          </div>
+          </footer>
         </div>
-      </footer>
+      </div>
     </div>
   </div>
 </div>

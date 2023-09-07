@@ -14,24 +14,19 @@ import styles from "./testimonials.module.css";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import { useEffect, useRef, useState } from "react";
 
+export const getQuoteNumber = (div: HTMLDivElement | null) : number => {
+  return window.matchMedia("(min-width: 701px)").matches
+    ? Math.min(Math.floor((div?.offsetWidth ?? window.innerWidth) / 420), 3)
+    : 1;
+}
+
 function Testimonials() {
   const elementRef = useRef<HTMLDivElement>(null);
-
-  const getQuoteNumber = (): number => {
-    const width = elementRef.current?.offsetWidth ?? window.innerWidth;
-    return window.matchMedia("(min-width: 701px)").matches
-      ? Math.min(Math.floor(width / 420), 3)
-      : 1;
-  };
 
   const [quoteNumber, setQuoteNumber] = useState(1);
 
   const setQuoteNumberEffect = () => {
-    const newQuoteNumber = getQuoteNumber();
-
-    if (newQuoteNumber !== quoteNumber) {
-      setQuoteNumber(newQuoteNumber);
-    }
+    setQuoteNumber(getQuoteNumber(elementRef.current));
   };
 
   // listen for resize events
