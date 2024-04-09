@@ -101,6 +101,7 @@ exports[`renders About page 1`] = `
           </div>
           <article
             class="article articleLeft"
+            class="article articleLeft"
           >
             <h1
               class="className"
@@ -160,6 +161,118 @@ exports[`renders About page 1`] = `
               If you'd like to receive news about charity events within the beer industry, please sign up for our newsletter. And if you have an event or an initiative you're holding for a charity or another great cause, please let us know by contacting us.
             </p>
           </article>
+        </div>
+        <div
+          class="thanks"
+        >
+          <div
+            class="quoteBox"
+          >
+            <img
+              alt="Quote Start"
+              class="quoteImage"
+              data-nimg="1"
+              decoding="async"
+              height="24"
+              loading="lazy"
+              src="/assets/quote_start.svg"
+              style="color: transparent;"
+              width="24"
+            />
+            <p
+              class="quote"
+            >
+              The generous support from Craft Beer Cares is huge for Art Against Knives.
+            </p>
+            <img
+              alt="Quote End"
+              class="quoteImage"
+              data-nimg="1"
+              decoding="async"
+              height="24"
+              loading="lazy"
+              src="/assets/quote_end.svg"
+              style="color: transparent;"
+              width="24"
+            />
+            <p
+              class="author"
+            >
+              Katy Dawe, Art Against Knives Director
+            </p>
+          </div>
+          <div
+            class="quoteBox"
+          >
+            <img
+              alt="Quote Start"
+              class="quoteImage"
+              data-nimg="1"
+              decoding="async"
+              height="24"
+              loading="lazy"
+              src="/assets/quote_start.svg"
+              style="color: transparent;"
+              width="24"
+            />
+            <p
+              class="quote"
+            >
+              We'd like to say a huge thank you to Craft Beer Cares for choosing to support Mind through their first beer festival. Every penny raised will fund Mind's vital work.
+            </p>
+            <img
+              alt="Quote End"
+              class="quoteImage"
+              data-nimg="1"
+              decoding="async"
+              height="24"
+              loading="lazy"
+              src="/assets/quote_end.svg"
+              style="color: transparent;"
+              width="24"
+            />
+            <p
+              class="author"
+            >
+              Karen Bolton, Community Fundraising Manager for Mind
+            </p>
+          </div>
+          <div
+            class="quoteBox"
+          >
+            <img
+              alt="Quote Start"
+              class="quoteImage"
+              data-nimg="1"
+              decoding="async"
+              height="24"
+              loading="lazy"
+              src="/assets/quote_start.svg"
+              style="color: transparent;"
+              width="24"
+            />
+            <p
+              class="quote"
+            >
+              From November through to March, the coldest months of the year, Hackney Winter Night Shelter opens its doors to the most vulnerable in our community. Any money raised would be of enormous benefit.
+            </p>
+            <img
+              alt="Quote End"
+              class="quoteImage"
+              data-nimg="1"
+              decoding="async"
+              height="24"
+              loading="lazy"
+              src="/assets/quote_end.svg"
+              style="color: transparent;"
+              width="24"
+            />
+            <p
+              class="author"
+            >
+              Christina Ball, Hackney Winter Night Shelter
+            </p>
+          </div>
         </div>
         <div
           class="thanks"

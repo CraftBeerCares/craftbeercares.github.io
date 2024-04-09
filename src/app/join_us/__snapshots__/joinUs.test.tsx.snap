@@ -101,6 +101,7 @@ exports[`renders Join Us page 1`] = `
           </div>
           <article
             class="article articleLeft"
+            class="article articleLeft"
           >
             <h1
               class="title className"
