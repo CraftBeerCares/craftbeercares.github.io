@@ -6,6 +6,7 @@ export { ArticleHeader } from "./articleHeader/articleHeader";
 export { SignUp } from "./signUp/signUp";
 export { Navigation } from "./navigation/navigation";
 export { Thanks } from "./thanks/thanks";
+export { Testimonials } from "./testimonials/testimonials";
 
 export enum Position {
   Left = "left",

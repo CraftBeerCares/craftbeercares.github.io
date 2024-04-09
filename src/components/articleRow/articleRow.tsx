@@ -15,21 +15,35 @@ export const ArticleRow = ({
   children,
   imagePosition = "left",
 }: ArticleRowProps) => {
-
-  const articlePositionClassName = imagePosition === "left" ? styles.articleRight : styles.articleLeft
-  const imagePositionClassName = imagePosition === "right" ? styles.imageRight : styles.imageLeft
-
   return (
     <div className={styles.articleRow}>
-        <div className={clsx(styles.articleImage, imagePositionClassName)}>
-          <Image
+      {imagePosition === "left" && (
+        <div className={styles.articleImage}>
+          <img
             src={imageSrc}
             alt={imageAlt}
-            fill={true}
-            style={{ objectFit: "contain" }}
+            style={{
+              objectFit: "contain",
+              width: "100%",
+              marginLeft: "-3rem",
+            }}
           />
         </div>
-      <article className={clsx(styles.article, articlePositionClassName)}>{children}</article>
+      )}
+      <article className={styles.article}>{children}</article>
+      {imagePosition === "right" && (
+        <div className={styles.articleImage}>
+          <img
+            src={imageSrc}
+            alt={imageAlt}
+            style={{
+              objectFit: "contain",
+              width: "100%",
+              marginLeft: "3rem",
+            }}
+          />
+        </div>
+      )}
     </div>
   );
 };

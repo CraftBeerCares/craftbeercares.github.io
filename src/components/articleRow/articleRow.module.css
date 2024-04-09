@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 2rem 0;
 }
 
 .article {
@@ -19,7 +20,7 @@
 .articleImage {
   position: relative;
   width: 100vw;
-  height: 30rem;
+  height: fit-content;
   align-items: flex-start;
 }
 
@@ -38,25 +39,4 @@
     flex: 0 0 50%;
     position: relative;
   }
-
-  .imageLeft {
-    order: 1;
-    margin-left: -3.5rem;
-  }
-
-  .imageRight {
-    order: 2;
-    margin-right: -3.5rem;
-  }
-
-  .articleLeft {
-    order: 1;
-    margin-right: 6rem;
-  }
-  
-  .articleRight {
-    order: 2;
-    margin-left: 6rem;
-  }
-  
 }

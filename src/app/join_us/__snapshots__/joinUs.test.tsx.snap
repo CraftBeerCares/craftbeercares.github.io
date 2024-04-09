@@ -118,22 +118,8 @@ exports[`renders Join Us page 1`] = `
         <div
           class="articleRow"
         >
-          <div
-            class="articleImage imageRight"
-          >
-            <img
-              alt="alt"
-              data-nimg="fill"
-              decoding="async"
-              loading="lazy"
-              sizes="100vw"
-              src="/_next/image?url=%2Fassets%2F001.webp&w=3840&q=75"
-              srcset="/_next/image?url=%2Fassets%2F001.webp&w=640&q=75 640w, /_next/image?url=%2Fassets%2F001.webp&w=750&q=75 750w, /_next/image?url=%2Fassets%2F001.webp&w=828&q=75 828w, /_next/image?url=%2Fassets%2F001.webp&w=1080&q=75 1080w, /_next/image?url=%2Fassets%2F001.webp&w=1200&q=75 1200w, /_next/image?url=%2Fassets%2F001.webp&w=1920&q=75 1920w, /_next/image?url=%2Fassets%2F001.webp&w=2048&q=75 2048w, /_next/image?url=%2Fassets%2F001.webp&w=3840&q=75 3840w"
-              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: contain; color: transparent;"
-            />
-          </div>
           <article
-            class="article articleLeft"
+            class="article"
           >
             <p>
               Sign up to the Craft Beer Cares newsletter to hear about events we are planning, as well as to find about other charitable events and fundraisers happening in the UK, and other good stuff happening in the world of beer!
@@ -142,26 +128,30 @@ exports[`renders Join Us page 1`] = `
               We will be publishing the newsletter on a monthly basis. If you'd like to hear more from us, please be sure to follow us on Twitter, Facebook and Instagram, too.
             </p>
           </article>
+          <div
+            class="articleImage"
+          >
+            <img
+              alt="alt"
+              src="/assets/001.webp"
+              style="object-fit: contain; width: 100%; margin-left: 3rem;"
+            />
+          </div>
         </div>
         <div
           class="articleRow"
         >
           <div
-            class="articleImage imageLeft"
+            class="articleImage"
           >
             <img
               alt="alt"
-              data-nimg="fill"
-              decoding="async"
-              loading="lazy"
-              sizes="100vw"
-              src="/_next/image?url=%2Fassets%2F001.webp&w=3840&q=75"
-              srcset="/_next/image?url=%2Fassets%2F001.webp&w=640&q=75 640w, /_next/image?url=%2Fassets%2F001.webp&w=750&q=75 750w, /_next/image?url=%2Fassets%2F001.webp&w=828&q=75 828w, /_next/image?url=%2Fassets%2F001.webp&w=1080&q=75 1080w, /_next/image?url=%2Fassets%2F001.webp&w=1200&q=75 1200w, /_next/image?url=%2Fassets%2F001.webp&w=1920&q=75 1920w, /_next/image?url=%2Fassets%2F001.webp&w=2048&q=75 2048w, /_next/image?url=%2Fassets%2F001.webp&w=3840&q=75 3840w"
-              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: contain; color: transparent;"
+              src="/assets/001.webp"
+              style="object-fit: contain; width: 100%; margin-left: -3rem;"
             />
           </div>
           <article
-            class="article articleRight"
+            class="article"
           >
             <p>
               We are incredibly grateful to all of the volunteers we have had to make our festivals be incredibly fun and successful fundraising events.
@@ -174,22 +164,8 @@ exports[`renders Join Us page 1`] = `
         <div
           class="articleRow"
         >
-          <div
-            class="articleImage imageRight"
-          >
-            <img
-              alt="alt"
-              data-nimg="fill"
-              decoding="async"
-              loading="lazy"
-              sizes="100vw"
-              src="/_next/image?url=%2Fassets%2F001.webp&w=3840&q=75"
-              srcset="/_next/image?url=%2Fassets%2F001.webp&w=640&q=75 640w, /_next/image?url=%2Fassets%2F001.webp&w=750&q=75 750w, /_next/image?url=%2Fassets%2F001.webp&w=828&q=75 828w, /_next/image?url=%2Fassets%2F001.webp&w=1080&q=75 1080w, /_next/image?url=%2Fassets%2F001.webp&w=1200&q=75 1200w, /_next/image?url=%2Fassets%2F001.webp&w=1920&q=75 1920w, /_next/image?url=%2Fassets%2F001.webp&w=2048&q=75 2048w, /_next/image?url=%2Fassets%2F001.webp&w=3840&q=75 3840w"
-              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: contain; color: transparent;"
-            />
-          </div>
           <article
-            class="article articleLeft"
+            class="article"
           >
             <p>
               We are always looking to support and shout about other events and activities doing good for the community, whether it's through charity fundraising or organisational involvement.
@@ -198,6 +174,15 @@ exports[`renders Join Us page 1`] = `
               If you want to get in touch about something charity-focused you are organising, or want to tip us off about a beer-related fundraising event, please contact us with as much detail as possible. We'd love to hear from you!
             </p>
           </article>
+          <div
+            class="articleImage"
+          >
+            <img
+              alt="alt"
+              src="/assets/001.webp"
+              style="object-fit: contain; width: 100%; margin-left: 3rem;"
+            />
+          </div>
         </div>
       </main>
       <div
