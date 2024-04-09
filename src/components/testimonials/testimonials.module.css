@@ -1,23 +1,10 @@
-.controls {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+.testimonial {
+  width: 420px;
+  padding-left: 3.4rem;
 }
 
-.button {
-  flex: 0 0 auto;
-}
-
-.dots {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1 1 auto;
-  width: fit-content;
-  height: fit-content;
-}
-
-.quoteBox {
-  margin: 0;
-  padding: 0;
+.dotList {
+  position: relative;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
 }

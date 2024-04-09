@@ -18,22 +18,28 @@ export const ArticleRow = ({
     <div className={styles.articleRow}>
       {imagePosition === "left" && (
         <div className={styles.articleImage}>
-          <Image
+          <img
             src={imageSrc}
             alt={imageAlt}
-            fill={true}
-            style={{ width: "100%" }}
+            style={{
+              objectFit: "contain",
+              width: "100%",
+              marginLeft: "-3rem",
+            }}
           />
         </div>
       )}
       <article className={styles.article}>{children}</article>
       {imagePosition === "right" && (
         <div className={styles.articleImage}>
-          <Image
+          <img
             src={imageSrc}
             alt={imageAlt}
-            fill={true}
-            style={{ objectFit: "contain" }}
+            style={{
+              objectFit: "contain",
+              width: "100%",
+              marginLeft: "3rem",
+            }}
           />
         </div>
       )}

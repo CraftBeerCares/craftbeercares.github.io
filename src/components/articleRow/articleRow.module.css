@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 2rem 0;
 }
 
 .article {
@@ -19,6 +20,7 @@
 .articleImage {
   position: relative;
   width: 100vw;
+  height: fit-content;
   align-items: flex-start;
 }
 

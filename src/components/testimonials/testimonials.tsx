@@ -1,72 +1,44 @@
 "use client";
 
+import Carousel from "react-multi-carousel";
 import Quote from "../quote/quote";
 import testimonials from "./testimonials.json";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-  DotGroup,
-} from "pure-react-carousel";
 import styles from "./testimonials.module.css";
-import "pure-react-carousel/dist/react-carousel.es.css";
-import { useEffect, useRef, useState } from "react";
+import "react-multi-carousel/lib/styles.css";
 
-function Testimonials() {
-  const elementRef = useRef<HTMLDivElement>(null);
-
-  const getQuoteNumber = (): number => {
-    const width = elementRef.current?.offsetWidth ?? window.innerWidth;
-    return window.matchMedia("(min-width: 701px)").matches
-      ? Math.min(Math.floor(width / 420), 3)
-      : 1;
+export const Testimonials = () => {
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 10000, min: 1280 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1280, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
   };
-
-  const [quoteNumber, setQuoteNumber] = useState(1);
-
-  const setQuoteNumberEffect = () => {
-    const newQuoteNumber = getQuoteNumber();
-
-    if (newQuoteNumber !== quoteNumber) {
-      setQuoteNumber(newQuoteNumber);
-    }
-  };
-
-  // listen for resize events
-  useEffect(() => {
-    setQuoteNumberEffect();
-
-    window.addEventListener("resize", setQuoteNumberEffect);
-    return () => {
-      window.removeEventListener("resize", setQuoteNumberEffect);
-    };
-  }, []);
 
   return (
-    <CarouselProvider
-      naturalSlideHeight={105}
-      naturalSlideWidth={102}
-      totalSlides={testimonials.length}
-      visibleSlides={quoteNumber}
-      isIntrinsicHeight={true}
-      infinite={true}
-    >
-      <Slider>
-        {testimonials.map(({ quote, author }, index) => (
-          <Slide index={index} key={index} className={styles.quoteBox}>
-            <Quote quote={quote} author={author} />
-          </Slide>
-        ))}
-      </Slider>
-      <div className={styles.controls} ref={elementRef}>
-        <ButtonBack className={styles.button}>Back</ButtonBack>
-        <DotGroup className={styles.dots} />
-        <ButtonNext className={styles.button}>Next</ButtonNext>
-      </div>
-    </CarouselProvider>
+    <div className={styles.testimonials}>
+      <Carousel
+        responsive={responsive}
+        ssr={false}
+        slidesToSlide={2}
+        infinite={true}
+        className="testimonials"
+        showDots={true}
+        dotListClass={styles.dotList}
+        renderDotsOutside={true}
+        itemClass={styles.testimonial}
+      >
+        {testimonials.map(({ quote, author }, index) => {
+          return <Quote key={index} quote={quote} author={author} />;
+        })}
+      </Carousel>
+    </div>
   );
-}
-
-export default Testimonials;
+};

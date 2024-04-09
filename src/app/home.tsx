@@ -3,8 +3,7 @@ import Link from "next/link";
 import styles from "./home.module.css";
 import { secondary } from "@/styles/fonts";
 import { clsx } from "clsx";
-import { PageTemplate, ArticleRow } from "@/components";
-import Testimonials from "@/components/testimonials/testimonials";
+import { PageTemplate, ArticleRow, Testimonials } from "@/components";
 
 export const Home = () => {
   return (
