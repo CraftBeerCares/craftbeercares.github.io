@@ -6,7 +6,7 @@ exports[`renders ArticleRow imagePosition=left 1`] = `
     class="articleRow"
   >
     <div
-      class="articleImage imageLeft"
+      class="articleImage"
     >
       <img
         alt="test alt"
@@ -15,7 +15,7 @@ exports[`renders ArticleRow imagePosition=left 1`] = `
       />
     </div>
     <article
-      class="article articleRight"
+      class="article"
     >
       <p>
         Hello
@@ -31,7 +31,7 @@ exports[`renders ArticleRow imagePosition=right 1`] = `
     class="articleRow"
   >
     <div
-      class="articleImage imageLeft"
+      class="articleImage"
     >
       <img
         alt="test alt"
@@ -40,7 +40,7 @@ exports[`renders ArticleRow imagePosition=right 1`] = `
       />
     </div>
     <article
-      class="article articleRight"
+      class="article"
     >
       <p>
         Hello
