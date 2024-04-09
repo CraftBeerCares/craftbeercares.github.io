@@ -179,23 +179,6 @@ exports[`renders Home page 1`] = `
             </div>
           </div>
         </section>
-        <section
-          class="quoteContainer"
-        >
-          <div
-            class="testimonials"
-          >
-            <div
-              class="react-multi-carousel-list  testimonials"
-              dir="ltr"
-            >
-              <ul
-                class="react-multi-carousel-track "
-                style="transition: none; overflow: unset; transform: translate3d(0px,0,0);"
-              />
-            </div>
-          </div>
-        </section>
       </main>
       <div
         class="footer"
