@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./articleRow.module.css";
+import clsx from "clsx";
 
 interface ArticleRowProps {
   imageSrc: string;

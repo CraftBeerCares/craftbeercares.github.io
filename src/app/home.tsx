@@ -65,6 +65,10 @@ export const Home = () => {
       <section className={styles.quoteContainer}>
         <Testimonials />
       </section>
+
+      <section className={styles.quoteContainer}>
+        <Testimonials />
+      </section>
     </PageTemplate>
   );
 };
