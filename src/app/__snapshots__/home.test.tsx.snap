@@ -103,12 +103,12 @@ exports[`renders Home page 1`] = `
           class="articleRow"
         >
           <div
-            class="articleImage"
+            class="articleImage imageLeft"
           >
             <img
               alt="Image of Founder"
               src="/assets/001.webp"
-              style="object-fit: contain; width: 100%; margin-left: -3rem;"
+              style="object-fit: contain; width: 100%;"
             />
           </div>
           <article
@@ -146,12 +146,12 @@ exports[`renders Home page 1`] = `
             </p>
           </article>
           <div
-            class="articleImage"
+            class="articleImage imageRight"
           >
             <img
               alt="DJ at Craft Beers Event"
               src="/assets/002.webp"
-              style="object-fit: contain; width: 100%; margin-left: 3rem;"
+              style="object-fit: contain; width: 100%;"
             />
           </div>
         </div>
