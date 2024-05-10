@@ -1,4 +1,4 @@
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
 import styles from "./articleRow.module.css";
 import clsx from "clsx";
 
@@ -18,28 +18,26 @@ export const ArticleRow = ({
   return (
     <div className={styles.articleRow}>
       {imagePosition === "left" && (
-        <div className={styles.articleImage}>
+        <div className={clsx(styles.articleImage, styles.imageLeft)}>
           <img
             src={imageSrc}
             alt={imageAlt}
             style={{
               objectFit: "contain",
               width: "100%",
-              marginLeft: "-3rem",
             }}
           />
         </div>
       )}
       <article className={styles.article}>{children}</article>
       {imagePosition === "right" && (
-        <div className={styles.articleImage}>
+        <div className={clsx(styles.articleImage, styles.imageRight)}>
           <img
             src={imageSrc}
             alt={imageAlt}
             style={{
               objectFit: "contain",
               width: "100%",
-              marginLeft: "3rem",
             }}
           />
         </div>

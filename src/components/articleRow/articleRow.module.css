@@ -18,10 +18,17 @@
 }
 
 .articleImage {
+  flex: 0 0 100%;
   position: relative;
   width: 100vw;
   height: fit-content;
   align-items: flex-start;
+}
+
+.imageLeft,
+.imageRight {
+  margin: 0rem;
+  padding: 1.5rem;
 }
 
 /* Tablet Smaller Desktop */
@@ -38,5 +45,15 @@
   .articleImage {
     flex: 0 0 50%;
     position: relative;
+  }
+
+  .imageLeft {
+    margin-left: -3rem;
+    padding-right: 3rem;
+  }
+
+  .imageRight {
+    padding-left: 3rem;
+    margin-right: -3rem;
   }
 }

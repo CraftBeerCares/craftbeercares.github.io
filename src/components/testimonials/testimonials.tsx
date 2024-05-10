@@ -13,11 +13,11 @@ export const Testimonials = () => {
       items: 3,
     },
     tablet: {
-      breakpoint: { max: 1280, min: 464 },
+      breakpoint: { max: 1280, min: 853 },
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 853, min: 0 },
       items: 1,
     },
   };
